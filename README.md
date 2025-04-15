@@ -12,14 +12,14 @@ De plus, le capteur graphite réalisé sera testé de manière à comparer ses p
 
  ## Livrables
 À la fin de ce projet, plusieurs livrables sont attendus:
-- Un Shield PCB sur lequel seront connectés tous les éléments cités dans la partie [Matériel utilisé](https://github.com/MOSH-Insa-Toulouse/2024-2025-4GP-Haistelle-Lucbourd/blob/main/README.md#mat%C3%A9riel-utilis%C3%A9)
-- Un banc de test pour étudier la déformation du capteur graphite et du capteur commercial
-- Un code Arduino qui permette de contrôler le banc de test et d'afficher les mesures de résistances
-- Une datasheet qui énonce toutes les caractéristiques du capteur graphite
-- Une application Android (.apk) pour visualiser les relevés de mesures en direct
+- Un **Shield PCB** sur lequel seront connectés tous les éléments cités dans la partie [Matériel utilisé](https://github.com/MOSH-Insa-Toulouse/2024-2025-4GP-Haistelle-Lucbourd/blob/main/README.md#mat%C3%A9riel-utilis%C3%A9)
+- Un **banc de test** pour étudier la déformation du capteur graphite et du capteur commercial
+- Un **code Arduino** qui permette de contrôler le banc de test et d'afficher les mesures de résistances
+- Une **datasheet** qui énonce toutes les caractéristiques du capteur graphite
+- Une **application Android** (.apk) pour visualiser les relevés de mesures en direct
 
 ## Matériel utilisé 
-Pour le montage, voici tout le matériel requis:
+Pour le **montage**, voici tout le matériel requis:
 - Une carte Arduino UNO
 - Un écran OLED (I2C) 
 - Un module Bluetooth HC-05
@@ -30,7 +30,7 @@ Pour le montage, voici tout le matériel requis:
 - Un servo moteur
 - Une résistance de 33k
 
-Pour réaliser l'amplificateur transimpédance, la liste de matériel est la suivante:
+Pour réaliser **l'amplificateur transimpédance**, la liste de matériel est la suivante:
 - Un amplificateur opérationnel LTC1050
 - Deux condensateurs de 100nF
 - Un condensateur de 1uF
