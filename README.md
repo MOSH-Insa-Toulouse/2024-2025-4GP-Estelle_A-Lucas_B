@@ -133,22 +133,22 @@ Le servo moteur effectuera 5 aller-retours jusqu'à la position 150 du servo à 
  [INSÉRER ALGORIGRAMME]
 ### 8 - Le menu "LiveVIEW"
  [INSÉRER IMAGE]
- Ce menu permet un affichage en direct de la valeur de résistance lue par l'entrée analogique. Il faut se placer à l'intérieur de ce menu pour utiliser l'application Android car les données sont envoyées au téléphone via le module Bluetooth HC-05.
+<div align="justify"> Ce menu permet un affichage en direct de la valeur de résistance lue par l'entrée analogique. Il faut se placer à l'intérieur de ce menu pour utiliser l'application Android car les données sont envoyées au téléphone via le module Bluetooth HC-05. </div>
 
 # VI - L'application Android avec Mit App Inventor
 
-Cette application permet de recevoir les donnnées envoyées par le module Bluetooth du PCB et de les afficher sous forme de graphique. Pour ce faire, les données lues par l'entrée analogique du capteur suivent le processus suivant:
+<div align="justify"> Cette application permet de recevoir les donnnées envoyées par le module Bluetooth du PCB et de les afficher sous forme de graphique. Pour ce faire, les données lues par l'entrée analogique du capteur suivent le processus suivant:
 
 [insérer image explicative]
 
 ## A) L'écran de démarrage
 [INSÉRER IMAGE]
-L'écran de démarrage comporte un seul bouton "Démarrer" sur lequel il suffit de cliquer pour lancer l'application.
+<div align="justify"> L'écran de démarrage comporte un seul bouton "Démarrer" sur lequel il suffit de cliquer pour lancer l'application.</div>
 
 ## B) L'interface principale et ses fonctionalités
 [INSÉRER IMAGE]
 
-Sur le deuxième écran, l'utilisateur doit tout d'abord connecter son téléphone au module Bluetooth pour recevoir les données. Lorsque la connexion est établie, le bouton "Bluetooth connexion" s'affiche en vert. Ensuite, un switch permet de définir quel capteur est utilisé. Si l'on utilise le capteur graphite, il faut renseigner la valeur du potentiomètre numérique dans la case rose pour afficher la bonne valeur de résistance dans la case bleue claire. Un graphique en dessous permet d'afficher en direct les bytes reçus par le module Bluetooth. Les butes reçus sont également affichés dans la case jaune en dessous du graphique. 
+<div align="justify"> Sur le deuxième écran, l'utilisateur doit tout d'abord connecter son téléphone au module Bluetooth pour recevoir les données. Lorsque la connexion est établie, le bouton "Bluetooth connexion" s'affiche en vert. Ensuite, un switch permet de définir quel capteur est utilisé. Si l'on utilise le capteur graphite, il faut renseigner la valeur du potentiomètre numérique dans la case rose pour afficher la bonne valeur de résistance dans la case bleue claire. Un graphique en dessous permet d'afficher en direct les bytes reçus par le module Bluetooth. Les butes reçus sont également affichés dans la case jaune en dessous du graphique. </div>
 
 # Conclusion
 ## A) Les mesures obtenues
