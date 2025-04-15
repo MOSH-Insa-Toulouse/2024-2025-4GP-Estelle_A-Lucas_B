@@ -4,7 +4,7 @@ Projet capteur 2024 - 2025 | Estelle AUBRY et Lucas BOURDARIE | 4ème année, 59
 # Présentation du projet 
 
 <div align="justify"> 
-Ce projet a été mené dans le cadre de l'UF  "Du capteur au banc de test" . L'objectif est de réaliser un capteur de déformation à base de graphite. Pour ce faire, il suffit simplement de déposer du crayon à papier sur un bout de papier. La tension ou la compression du papier engendre une variation de résistance qui est proportionnelle à la déformation appliquée. Les principes physiques qui se cachent derrière ce phénomène sont expliqués ici.  Le projet s'inscrit donc dans une démarche low-tech car il nécessite peu de ressources et sa réalisation est accessible à tous !
+Ce projet a été mené dans le cadre de l'UF  "Du capteur au banc de test" . L'objectif est de réaliser un capteur de déformation à base de graphite. Pour ce faire, il suffit simplement de déposer du crayon à papier sur un bout de papier. La tension ou la compression du papier engendre une variation de résistance qui est proportionnelle à la déformation appliquée. Les principes physiques qui se cachent derrière ce phénomène sont expliqués [ici]().  Le projet s'inscrit donc dans une démarche low-tech car il nécessite peu de ressources et sa réalisation est accessible à tous !
 </div>
   
 ## Matériel utilisé 
