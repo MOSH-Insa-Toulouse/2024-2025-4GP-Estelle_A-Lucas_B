@@ -102,32 +102,32 @@ Ce menu souhaite la bienvenue à l'utilisateur. Il ne possède pas le fonctional
 
 ### 2 - Le menu "CONFIGURATION"
 [INSÉRER IMAGE]
-Ce menu permet à l'utilisateur de définir quel type de capteur il utilise entre le capteur graphite et le capteur commercial. Une fois le type de capteur sélectonné (fond bleu et écriture noire), il suffit d'appuyer sur l'encoder rotatif pour enregistrer le choix.
+<div align="justify"> Ce menu permet à l'utilisateur de définir quel type de capteur il utilise entre le capteur graphite et le capteur commercial. Une fois le type de capteur sélectonné (fond bleu et écriture noire), il suffit d'appuyer sur l'encoder rotatif pour enregistrer le choix. </div>
 
 ### 3 - Le menu "CALIBRATION"
  [INSÉRER IMAGE]
-Dans ce menu, l'utilisateur peut régler la valeur prise par le potentiomètre numérique de manière à ne pas saturer l'amplificateur opérationnel. Attention, ce menu n'est utile que lorsque le type de capteur choisi est le graphite car le potentiomètre numérique est utilisé dans l'amplificateur transimpédance. L'interface affiche à la fois la valeur de résistance prise par le potentiomètre numérique et le signal lu par l'entrée analogique du capteur graphite. Il s'agit donc d'une valeur comprise entre 0 et 1023. Lors des mesures, il faut également anticiper la variation de résistance engendrée par la déformation du capteur graphite. En effet, en compression, la résistance lue diminue donc le signal augmente et peut, si le potentiomètre n'est pas correctement réglé, saturer l'AOP. 
+<div align="justify"> Dans ce menu, l'utilisateur peut régler la valeur prise par le potentiomètre numérique de manière à ne pas saturer l'amplificateur opérationnel. Attention, ce menu n'est utile que lorsque le type de capteur choisi est le graphite car le potentiomètre numérique est utilisé dans l'amplificateur transimpédance. L'interface affiche à la fois la valeur de résistance prise par le potentiomètre numérique et le signal lu par l'entrée analogique du capteur graphite. Il s'agit donc d'une valeur comprise entre 0 et 1023. Lors des mesures, il faut également anticiper la variation de résistance engendrée par la déformation du capteur graphite. En effet, en compression, la résistance lue diminue donc le signal augmente et peut, si le potentiomètre n'est pas correctement réglé, saturer l'AOP. </div>
 
 ### 4 - Le menu "VITESSE"
  [INSÉRER IMAGE]
-Dans le menu "Vitesse", l'utilisateur peut régler la vitesse à laquelle il souhaite effectuer les mesures, c'est-à-dire, la vitesse à laquelle la glissère reliée au servo moteur va se déplacer. L'écran affiche un pourcentage qui correspond à la vitesse du servo moteur. 0% correspond à la vitesse minimale et 100% la vitesse maximale. Pour augmenter la vitesse, il est nécessaire de tourner l'encodeur rotatoire dans le sens anti-horaire car il s'agit en réalité de "diminuer" un délai. De plus, lorsque la vitesse change (= l'encoder change de position), le servo moteur effectue un aller-retour au cours duquel il est possible faire varier la vitesse du servo à l'aide de l'encoder jusqu'à obtenir la vitesse désirée. L'affichage en % de la vitesse s'effectue <ins> à la fin </ins> de l'aller-retour. Il n'y a donc pas d'affichage en direct de la vitesse mais seulement après que le servo moteur ait fait un aller-retour. 
+<div align="justify"> Dans le menu "Vitesse", l'utilisateur peut régler la vitesse à laquelle il souhaite effectuer les mesures, c'est-à-dire, la vitesse à laquelle la glissère reliée au servo moteur va se déplacer. L'écran affiche un pourcentage qui correspond à la vitesse du servo moteur. 0% correspond à la vitesse minimale et 100% la vitesse maximale. Pour augmenter la vitesse, il est nécessaire de tourner l'encodeur rotatoire dans le sens anti-horaire car il s'agit en réalité de "diminuer" un délai. De plus, lorsque la vitesse change (= l'encoder change de position), le servo moteur effectue un aller-retour au cours duquel il est possible faire varier la vitesse du servo à l'aide de l'encoder jusqu'à obtenir la vitesse désirée. L'affichage en % de la vitesse s'effectue <ins> à la fin </ins> de l'aller-retour. Il n'y a donc pas d'affichage en direct de la vitesse mais seulement après que le servo moteur ait fait un aller-retour. </div>
  [INSÉRER ALGORIGRAMME]
 
 ### 5 - Le menu "BORNE"
  [INSÉRER IMAGE]
-À partir de cette étape, il faut placer le capteur sur le banc de test. Le menu "Borne" permet à l'utilisateur de régler la position maximale du servo moteur et par conséquent, celle de l'encoche qui maintient le capteur. De cette manière, l'utilisateur peut s'assurer que le capteur épouse correctement la forme du rayon de courbure. Pour augmenter ou diminuer la position maximale, il faut tourner l'encoder rotatif dans le sens hoaire ou anti-horaire. 
+<div align="justify"> À partir de cette étape, il faut placer le capteur sur le banc de test. Le menu "Borne" permet à l'utilisateur de régler la position maximale du servo moteur et par conséquent, celle de l'encoche qui maintient le capteur. De cette manière, l'utilisateur peut s'assurer que le capteur épouse correctement la forme du rayon de courbure. Pour augmenter ou diminuer la position maximale, il faut tourner l'encoder rotatif dans le sens hoaire ou anti-horaire. </div>
  
 ### 6 - Le menu "MODE de MESURE"
  [INSÉRER IMAGE]
-À l'intérieur de ce menu, l'utilisateur définit le nombre de mesures qu'il souhaite faire. En effet, nous avons pensé que comme les valeurs de résistances lues en direct peuvent parfois varier beaucoup, il pourrait être intéressant de permettre à l'utilisateur de faire une moyenne sur un nombre de mesures qu'il définit lui-même. De ce fait, lorsque la valeur choisie est "5" par exemple, le code effectuera 5 relevés de résistances pour un même rayon de courbure. Le servo fera donc un aller, une mesure puis un retour, le tout 5 fois. La valeur finale affichée correspondra à une moyenne de la résistance sur les 5 mesures. Le nombre de mesure réalisable est compris entre 1 et 20. 
+<div align="justify"> À l'intérieur de ce menu, l'utilisateur définit le nombre de mesures qu'il souhaite faire. En effet, nous avons pensé que comme les valeurs de résistances lues en direct peuvent parfois varier beaucoup, il pourrait être intéressant de permettre à l'utilisateur de faire une moyenne sur un nombre de mesures qu'il définit lui-même. De ce fait, lorsque la valeur choisie est "5" par exemple, le code effectuera 5 relevés de résistances pour un même rayon de courbure. Le servo fera donc un aller, une mesure puis un retour, le tout 5 fois. La valeur finale affichée correspondra à une moyenne de la résistance sur les 5 mesures. Le nombre de mesure réalisable est compris entre 1 et 20. </div>
 
 
 ### 7 - Le menu "DÉMARRAGE"
  [INSÉRER IMAGE]
 Le menu démarrage permet de lancer l'acquisition de mesure. Il prend en compte tous les paramètres précedemment définis par l'utilisateur. Par exemple pour des paramètres tels que:
-**Vitesse**: 52%
-**Borne**: 150
-**Mode de mesure**: 5
+- **Vitesse**: 52%
+- **Borne**: 150
+- **Mode de mesure**: 5
 Le servo moteur effectuera 5 aller-retours jusqu'à la position 150 du servo à une vitesse de 52% de la vitessse maximale. 
 
  [INSÉRER ALGORIGRAMME]
