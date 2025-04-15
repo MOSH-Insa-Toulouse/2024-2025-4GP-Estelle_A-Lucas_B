@@ -8,9 +8,17 @@ Ce projet a été mené dans le cadre de l'UF  "Du capteur au banc de test" . L'
 De plus, le capteur graphite réalisé sera testé de manière à comparer ses performances avec un capteur de déformation commercial. Nous souhaitons dégager les forces et les limites du capteur graphite par rapport à un capteur commercial. Finalement, nous établirons une conclusion quant à la possible industrialisation de ce type de capteur. 
 
 <div align="justify"> </div>
-  
+
+
+ ## Livrables
+À la fin de ce projet, plusieurs livrables sont attendus:
+- Un Shield PCB sur lequel seront connectés tous les éléments cités dans la partie [Matériel utilisé]()
+- Une datasheet qui énonce toutes les caractéristiques du capteur graphite
+- Une application Android (.apk) pour visualiser les relevés de mesures
+- 
+
 ## Matériel utilisé 
-Pour effectuer des tests, voici tout le matériel requis:
+Pour le montage, voici tout le matériel requis:
 - Une carte Arduino UNO
 - Un écran OLED (I2C) 
 - Un module Bluetooth HC-05
@@ -28,8 +36,6 @@ Pour réaliser l'amplificateur transimpédance, la liste de matériel est la sui
 - Deux résistances de 100k
 - Deux résistances de 1k
 - Une résistance de 10k
-  
- ## Livrables
 
 # I - Un capteur à base de graphite, c'est possible ?
 
