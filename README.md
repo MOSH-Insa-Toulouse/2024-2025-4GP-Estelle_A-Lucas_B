@@ -1,7 +1,7 @@
 # 2024-2025-4GP-Estelle AUBRY-Lucas BOURDARIE
 Projet capteur 2024 - 2025 | Estelle AUBRY et Lucas BOURDARIE | 4ème année, 59ème promotion
 
-# Introduction
+# Présentation du projet et du matériel utilisé
 
 # I - Un capteur à base de graphite, c'est possible ?
 
