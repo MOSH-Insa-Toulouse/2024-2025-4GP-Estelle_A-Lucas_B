@@ -73,11 +73,15 @@ Ensuite, nous avons designé un PCB simple face à l'aide du logiciel KiCAD. Pou
 
 # IV - Le banc de test automatisé
 
-Afin d'optimiser notre relevé de mesures, nous avons mis au point un banc de test qui courbe automatiquement le capteur de déformation. De cette manière, nous minimisons les risques de dégradation du capteur graphite lors des relevés de mesure car nous ne touchons pas le capteur dès lors qu'il est positionné sur le banc de test. Ce dernier permet des relevés entièrement personnalisables par l'utilisateur grâce au code Arduino développé. Avec ce banc de test, il est possible de réaliser des mesures sur le capteur graphite et le capteur commercial. Les mesures en tension se sont révélées être les plus faciles à mettre en place tandis que les mesures en compression sont plus délicates.
+<div align="justify"> Afin d'optimiser notre relevé de mesures, nous avons mis au point un banc de test qui courbe automatiquement le capteur de déformation. De cette manière, nous minimisons les risques de dégradation du capteur graphite lors des relevés de mesure car nous ne touchons pas le capteur dès lors qu'il est positionné sur le banc de test. Le banc de test a été réalisé sous Fusions360 puis imprimé en 3D. Ce dernier permet des relevés entièrement personnalisables par l'utilisateur grâce au code Arduino développé. Avec ce banc de test, il est possible de réaliser des mesures sur le capteur graphite et le capteur commercial. Les mesures en tension se sont révélées être les plus faciles à mettre en place tandis que les mesures en compression sont plus délicates.</div>
 
 ## A) La glissière pilotée par le servo moteur
+ [INSÉRER IMAGE]
+ Pour courber le capteur de déformation, nous avons utilisé un système de glissière qui se déplace sous l'action du servo moteur. En effet, nous avons conçu un engrenage qui se fixe sur le servo moteur et dont la rotation entraîne une glissière   écrantée. Le bout de cette glissière est designé en forme d'encoche pour maintenir le capteur. Pour éviter que le capteur ne sorte de l'encoche au cours des mesures, nous avons également imprimé des petites cales qui assurent que le capteur reste bien 
+positionné. Enfin, nous avons imprimé deux glissières différentes pour le capteur commercial et pour le capteur graphite car le capteur commercial était beaucoup plus long que le capteur graphite. La glissière du capteur commercial possède une petite fente au centre de l'encoche pour le maintenir correctement en place et permettre une déformation qui épouse mieux les rayons de courbure.
 
 ## B) Les rayons de courbure interchangeables
+[INSÉRER IMAGE]
 
 # V - Le code Arduino pour piloter le projet
 
