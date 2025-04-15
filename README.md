@@ -50,13 +50,20 @@ Pour réaliser **l'amplificateur transimpédance**, la liste de matériel est la
 # III - Réalisation du PCB avec KiCAD
 
 Ensuite, nous avons designé un PCB simple face à l'aide du logiciel KiCAD. Pour ce faire, nous avons suivi ces étapes:
+
 **1)** Dessiner les composants tels que l'OLED, l'encoder rotatif, le module Bluetooth, le capteur commercial et le capteur graphite
-**2)** Réaliser les empreintes de ces composants
-**3)** Sélectionner les résistances, les condensateurs et l'AOP pour réaliser l'amplificateur transimpédance dans l'éditeur de Schématique
-**4)** Établir les points de connexion entre la carte Arduino et tous les composants
-**5)** Positioner les composants sur la PCB
-**6)** Importer les modèles 3D pour les composants non-présents par défaut dans les librairies
-**7)** Faire le routage dans l'éditeur de PCB en évitant au maximum les masses flottantes et les vias
+
+**2)** Réaliser les **empreintes** de ces composants
+
+**3)** Sélectionner les résistances, les condensateurs et l'AOP pour **réaliser l'amplificateur transimpédance** dans l'éditeur de Schématique
+
+**4)** Établir les **points de connexion** entre la carte Arduino et tous les composants
+
+**5)** **Positioner** les composants sur la PCB
+
+**6)** Importer les **modèles 3D** pour les composants non-présents par défaut dans les librairies
+
+**7)** Faire **le routage** dans l'éditeur de PCB en évitant au maximum les masses flottantes et les vias
 
 **N.B**: Le servo moteur n'appairaît pas ici car il sera relié à la carte Arduino par le biais d'un header.
 
