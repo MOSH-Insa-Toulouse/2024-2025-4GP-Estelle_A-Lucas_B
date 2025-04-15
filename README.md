@@ -65,7 +65,7 @@ Ensuite, nous avons designé un PCB simple face à l'aide du logiciel KiCAD. Pou
 
 **7)** Faire **le routage** dans l'éditeur de PCB en évitant au maximum les masses flottantes et les vias
 
-**N.B**: Le servo moteur n'appairaît pas ici car il sera relié à la carte Arduino par le biais d'un header.
+**N.B**: Le servo moteur n'apparaît pas ici car il sera relié à la carte Arduino par le biais d'un header.
 
 <p align="center">Vue depuis l'éditeur de Schématique [INSÉRER IMG] </p>
 <p align="center">Vue depuis l'éditeur de PCB [INSÉRER IMG] </p>
