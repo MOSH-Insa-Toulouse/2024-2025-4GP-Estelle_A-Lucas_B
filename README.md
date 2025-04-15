@@ -2,14 +2,31 @@
 Projet capteur 2024 - 2025 | Estelle AUBRY et Lucas BOURDARIE | 4ème année, 59ème promotion
 
 # Présentation du projet 
-
  
 Ce projet a été mené dans le cadre de l'UF  "Du capteur au banc de test" . L'objectif est de réaliser un capteur de déformation à base de graphite. Pour ce faire, il suffit simplement de déposer du crayon à papier sur un bout de papier. La tension ou la compression du papier engendre une variation de résistance qui est proportionnelle à la déformation appliquée. Les principes physiques qui se cachent derrière ce phénomène sont expliqués [ici](https://github.com/MOSH-Insa-Toulouse/2024-2025-4GP-Haistelle-Lucbourd/blob/main/README.md#i---un-capteur-%C3%A0-base-de-graphite-cest-possible-).  Le projet s'inscrit donc dans une démarche low-tech car il nécessite peu de ressources et sa réalisation est accessible à tous !
+
 <div align="justify"> </div>
   
 ## Matériel utilisé 
-
-## Livrables
+Pour réaliser ce projet, voici tout le matériel requis:
+- Une carte Arduino UNO
+- Un écran OLED (I2C) 
+- Un module Bluetooth HC-05
+- Un potentiomètre numérique MCP41050
+- Un encoder rotatif
+- Un capteur de déformation commercial (FlexSensor) pour effectuer une comparaison
+- Des crayons à papiers différents pour les tests
+- Un servo moteur
+- Une résistance de 33k
+Pour réaliser l'amplificateur transimpédance, la liste de matériel est la suivante:
+- Un amplificateur opérationnel LTC1050
+- Deux condensateurs de 100nF
+- Un condensateur de 1uF
+- Deux résistances de 100k
+- Deux résistances de 1k
+- Une résistance de 10k
+  
+ ## Livrables
 
 # I - Un capteur à base de graphite, c'est possible ?
 
