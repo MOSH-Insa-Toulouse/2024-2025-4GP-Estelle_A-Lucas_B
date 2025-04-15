@@ -18,6 +18,7 @@ Pour réaliser ce projet, voici tout le matériel requis:
 - Des crayons à papiers différents pour les tests
 - Un servo moteur
 - Une résistance de 33k
+
 Pour réaliser l'amplificateur transimpédance, la liste de matériel est la suivante:
 - Un amplificateur opérationnel LTC1050
 - Deux condensateurs de 100nF
