@@ -77,8 +77,8 @@ Ensuite, nous avons designé un PCB simple face à l'aide du logiciel KiCAD. Pou
 
 ## A) La glissière pilotée par le servo moteur
  [INSÉRER IMAGE]
- Pour courber le capteur de déformation, nous avons utilisé un système de glissière qui se déplace sous l'action du servo moteur. En effet, nous avons conçu un engrenage qui se fixe sur le servo moteur et dont la rotation entraîne une glissière   écrantée. Le bout de cette glissière est designé en forme d'encoche pour maintenir le capteur. Pour éviter que le capteur ne sorte de l'encoche au cours des mesures, nous avons également imprimé des petites cales qui assurent que le capteur reste bien 
-positionné. Enfin, nous avons imprimé deux glissières différentes pour le capteur commercial et pour le capteur graphite car le capteur commercial était beaucoup plus long que le capteur graphite. La glissière du capteur commercial possède une petite fente au centre de l'encoche pour le maintenir correctement en place et permettre une déformation qui épouse mieux les rayons de courbure.
+<div align="justify">  Pour courber le capteur de déformation, nous avons utilisé un système de glissière qui se déplace sous l'action du servo moteur. En effet, nous avons conçu un engrenage qui se fixe sur le servo moteur et dont la rotation entraîne une glissière   écrantée. Le bout de cette glissière est designé en forme d'encoche pour maintenir le capteur. Pour éviter que le capteur ne sorte de l'encoche au cours des mesures, nous avons également imprimé des petites cales qui assurent que le capteur reste bien 
+positionné. Enfin, nous avons imprimé deux glissières différentes pour le capteur commercial et pour le capteur graphite car le capteur commercial était beaucoup plus long que le capteur graphite. La glissière du capteur commercial possède une petite fente au centre de l'encoche pour le maintenir correctement en place et permettre une déformation qui épouse mieux les rayons de courbure.</div>
 
 ## B) Les rayons de courbure interchangeables
 [INSÉRER IMAGE]
