@@ -12,10 +12,11 @@ De plus, le capteur graphite réalisé sera testé de manière à comparer ses p
 
  ## Livrables
 À la fin de ce projet, plusieurs livrables sont attendus:
-- Un Shield PCB sur lequel seront connectés tous les éléments cités dans la partie [Matériel utilisé]()
+- Un Shield PCB sur lequel seront connectés tous les éléments cités dans la partie [Matériel utilisé](https://github.com/MOSH-Insa-Toulouse/2024-2025-4GP-Haistelle-Lucbourd/blob/main/README.md#mat%C3%A9riel-utilis%C3%A9)
+- Un banc de test pour étudier la déformation du capteur graphite et du capteur commercial
+- Un code Arduino qui permette de contrôler le banc de test et d'afficher les mesures de résistances
 - Une datasheet qui énonce toutes les caractéristiques du capteur graphite
-- Une application Android (.apk) pour visualiser les relevés de mesures
-- 
+- Une application Android (.apk) pour visualiser les relevés de mesures en direct
 
 ## Matériel utilisé 
 Pour le montage, voici tout le matériel requis:
