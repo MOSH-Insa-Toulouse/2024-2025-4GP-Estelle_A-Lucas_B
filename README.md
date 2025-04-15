@@ -51,7 +51,7 @@ Pour réaliser **l'amplificateur transimpédance**, la liste de matériel est la
 
 # III - Réalisation du PCB avec KiCAD
 
-Ensuite, nous avons designé un PCB simple face à l'aide du logiciel KiCAD. Pour ce faire, nous avons suivi ces étapes:
+Ensuite, nous avons designé un PCB simple face à l'aide du logiciel KiCAD. Il est à noter que l'entrée du capteur graphite est reliée à l'amplificateur transimpédance. Le conditionneur utilisé pour le capteur commercial est un pont diviseur de tension avec une résistance de 33k. De plus, nous avons ajouté un condensateur pour faire du débouncing sur l'encoder rotatif. Nous avons suivi ces étapes:
 
 **1)** **Dessiner** les composants tels que l'OLED, l'encoder rotatif, le module Bluetooth, le capteur commercial et le capteur graphite
 
@@ -93,17 +93,37 @@ Ensuite, nous avons designé un PCB simple face à l'aide du logiciel KiCAD. Pou
 
 ## A) Description générale 
 
-Le code développé permet à l'utilisateur de gérer facilement et intuitivement le banc de test pour effectuer les mesures. L'affichage se fait sur l'écran OLED sur lequel apparaissent [Les différentes fonctionnalités](). L'utilisateur peut parcourir les différents menus en tournant l'encoder rotatif dans le sens horaire ou anti-horaire. Pour "rentrer" dans un menu, il suffit d'appuyer sur l'encoder et l'interface se met à jour. Chaque menu possède sa propre fonctionalité que l'utilisateur peut librement régler. En principe, l'ordre des menus correspond à l'ordre dans lequel l'utilisateur doit effectuer les réglages avant de lancer la mesure via le menu "Démarrage" à la fin. Il est préférable de ne pas placer le capteur sur le banc de test avant le menu "Borne" pour ne pas l'abîmer lors des précédents réglages.   
+Le code développé permet à l'utilisateur de gérer facilement et intuitivement le banc de test pour effectuer les mesures. L'affichage se fait sur l'écran OLED sur lequel apparaissent [Les différentes fonctionnalités](https://github.com/MOSH-Insa-Toulouse/2024-2025-4GP-Haistelle-Lucbourd/blob/main/README.md#b-les-diff%C3%A9rentes-fonctionalit%C3%A9s). L'utilisateur peut parcourir les différents menus en tournant l'encoder rotatif dans le sens horaire ou anti-horaire. Pour "rentrer" dans un menu, il suffit d'appuyer sur l'encoder et l'interface se met à jour. Chaque menu possède sa propre fonctionalité que l'utilisateur peut librement régler. En principe, l'ordre des menus correspond à l'ordre dans lequel l'utilisateur doit effectuer les réglages avant de lancer la mesure via le menu "Démarrage" à la fin. Il est préférable de ne pas placer le capteur sur le banc de test avant le menu "Borne" pour ne pas l'abîmer lors des précédents réglages.   
 
 ## B) Les différentes fonctionalités
+### 1 - Le menu "BIENVENU"
+[INSÉRER IMAGE]
+Ce menu souhaite la bienvenue à l'utilisateur. Il ne possède pas le fonctionalité particulière.
 
-### 1 - Le menu "CONFIGURATION"
-### 2 - Le menu "CALIBRATION"
-### 3 - Le menu "VITESSE"
-### 4 - Le menu "BORNE"
-### 5 - Le menu "MODE de MESURE"
-### 6 - Le menu "DÉMARRAGE"
-### 7 - Le menu "LiveVIEW"
+### 2 - Le menu "CONFIGURATION"
+[INSÉRER IMAGE]
+Ce menu permet à l'utilisateur de définir quel type de capteur il utilise entre le capteur graphite et le capteur commercial. Une fois le type de capteur sélectonné (fond bleu et écriture noire), il suffit d'appuyer sur l'encoder rotatif pour enregistrer le choix.
+
+### 3 - Le menu "CALIBRATION"
+ [INSÉRER IMAGE]
+Dans ce menu, l'utilisateur peut régler la valeur prise par le potentiomètre numérique de manière à ne pas saturer l'amplificateur opérationnel. Attention, ce menu n'est utile que lorsque le type de capteur choisi est le graphite car le potentiomètre numérique est utilisé dans l'amplificateur transimpédance. L'interface affiche à la fois la valeur de résistance prise par le potentiomètre numérique et le signal lu par l'entrée analogique du capteur graphite. Il s'agit donc d'une valeur comprise entre 0 et 1023. Lors des mesures, il faut également anticiper la variation de résistance engendrée par la déformation du capteur graphite. En effet, en compression, la résistance lue diminue donc le signal augmente et peut, si le potentiomètre n'est pas correctement réglé, saturer l'AOP. 
+
+### 4 - Le menu "VITESSE"
+ [INSÉRER IMAGE]
+Dans le menu "Vitesse", l'utilisateur peut régler la vitesse à laquelle il souhaite effectuer les mesures, c'est-à-dire, la vitesse à laquelle la glissère reliée au servo moteur va se déplacer. L'écran affiche un pourcentage qui correspond à la vitesse du servo moteur. 0% correspond à la vitesse minimale et 100% la vitesse maximale. Pour augmenter la vitesse, il est nécessaire de tourner l'encodeur rotatoire dans le sens anti-horaire car il s'agit en réalité de "diminuer" un délai. De plus, lorsque la vitesse change (= l'encoder change de position), le servo moteur effectue un aller-retour au cours duquel il est possible faire varier la vitesse du servo à l'aide de l'encoder jusqu'à obtenir la vitesse désirée. L'affichage en % de la vitesse s'effectue <ins> à la fin </ins> de l'aller-retour. Il n'y a donc pas d'affichage en direct de la vitesse mais seulement après que le servo moteur ait fait un aller-retour. 
+ [INSÉRER ALGORIGRAMME]
+
+### 5 - Le menu "BORNE"
+ [INSÉRER IMAGE]
+À partir de cette étape, il faut placer le capteur sur le banc de test. Le menu "Borne" permet à l'utilisateur de régler la position maximale du servo moteur et par conséquent, celle de l'encoche qui maintient le capteur. De cette manière, l'utilisateur peut s'assurer que le capteur épouse correctement la forme du rayon de courbure. Pour augmenter ou diminuer la position maximale, il faut tourner l'encoder rotatif dans le sens hoaire ou anti-horaire. 
+ 
+### 6 - Le menu "MODE de MESURE"
+ [INSÉRER IMAGE]
+À l'intérieur de ce menu, l'utilisateur définit 
+### 7 - Le menu "DÉMARRAGE"
+ [INSÉRER IMAGE]
+### 8 - Le menu "LiveVIEW"
+ [INSÉRER IMAGE]
 
 # VI - L'application Android avec Mit App Inventor
 
