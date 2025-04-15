@@ -51,7 +51,7 @@ Pour réaliser **l'amplificateur transimpédance**, la liste de matériel est la
 
 Ensuite, nous avons designé un PCB simple face à l'aide du logiciel KiCAD. Pour ce faire, nous avons suivi ces étapes:
 
-**1)** Dessiner les composants tels que l'OLED, l'encoder rotatif, le module Bluetooth, le capteur commercial et le capteur graphite
+**1)** **Dessiner** les composants tels que l'OLED, l'encoder rotatif, le module Bluetooth, le capteur commercial et le capteur graphite
 
 **2)** Réaliser les **empreintes** de ces composants
 
@@ -67,7 +67,13 @@ Ensuite, nous avons designé un PCB simple face à l'aide du logiciel KiCAD. Pou
 
 **N.B**: Le servo moteur n'appairaît pas ici car il sera relié à la carte Arduino par le biais d'un header.
 
+<p align="center">Vue depuis l'éditeur de Schématique [INSÉRER IMG] </p>
+<p align="center">Vue depuis l'éditeur de PCB [INSÉRER IMG] </p>
+<p align="center">Vue 3D [INSÉRER IMG] </p>
+
 # IV - Le banc de test automatisé
+
+Afin d'optimiser notre relevé de mesures, nous avons mis au point un banc de test qui courbe automatiquement le capteur de déformation. De cette manière, nous minimisons les risques de dégradation du capteur graphite lors des relevés de mesure car nous ne touchons pas le capteur dès lors qu'il est positionné sur le banc de test. Ce dernier permet des relevés entièrement personnalisables par l'utilisateur grâce au code Arduino développé. Avec ce banc de test, il est possible de réaliser des mesures sur le capteur graphite et le capteur commercial. Les mesures en tension se sont révélées être les plus faciles à mettre en place tandis que les mesures en compression sont plus délicates.
 
 ## A) La glissière pilotée par le servo moteur
 
