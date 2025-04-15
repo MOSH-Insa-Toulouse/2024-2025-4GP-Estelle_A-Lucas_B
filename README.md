@@ -119,9 +119,18 @@ Dans le menu "Vitesse", l'utilisateur peut régler la vitesse à laquelle il sou
  
 ### 6 - Le menu "MODE de MESURE"
  [INSÉRER IMAGE]
-À l'intérieur de ce menu, l'utilisateur définit 
+À l'intérieur de ce menu, l'utilisateur définit le nombre de mesures qu'il souhaite faire. En effet, nous avons pensé que comme les valeurs de résistances lues en direct peuvent parfois varier beaucoup, il pourrait être intéressant de permettre à l'utilisateur de faire une moyenne sur un nombre de mesures qu'il définit lui-même. De ce fait, lorsque la valeur choisie est "5" par exemple, le code effectuera 5 relevés de résistances pour un même rayon de courbure. Le servo fera donc un aller, une mesure puis un retour, le tout 5 fois. La valeur finale affichée correspondra à une moyenne de la résistance sur les 5 mesures. Le nombre de mesure réalisable est compris entre 1 et 20. 
+
+
 ### 7 - Le menu "DÉMARRAGE"
  [INSÉRER IMAGE]
+Le menu démarrage permet de lancer l'acquisition de mesure. Il prend en compte tous les paramètres précedemment définis par l'utilisateur. Par exemple pour des paramètres tels que:
+**Vitesse**: 52%
+**Borne**: 150
+**Mode de mesure**: 5
+Le servo moteur effectuera 5 aller-retours jusqu'à la position 150 du servo à une vitesse de 52% de la vitessse maximale. 
+
+ [INSÉRER ALGORIGRAMME]
 ### 8 - Le menu "LiveVIEW"
  [INSÉRER IMAGE]
 
