@@ -3,21 +3,21 @@ Projet capteur 2024 - 2025 | Estelle AUBRY et Lucas BOURDARIE | 4ème année, 59
 
 # Table des matières
 
-[Présentation du projet](https://github.com/MOSH-Insa-Toulouse/2024-2025-4GP-Haistelle-Lucbourd/edit/main/README.md#pr%C3%A9sentation-du-projet)
+[Présentation du projet](https://github.com/MOSH-Insa-Toulouse/2024-2025-4GP-Haistelle-Lucbourd/blob/main/README.md#pr%C3%A9sentation-du-projet)
 
-[I - Un capteur à base de graphite, c'est possible ?](https://github.com/MOSH-Insa-Toulouse/2024-2025-4GP-Haistelle-Lucbourd/edit/main/README.md#i---un-capteur-%C3%A0-base-de-graphite-cest-possible-)
+[I - Un capteur à base de graphite, c'est possible ?](https://github.com/MOSH-Insa-Toulouse/2024-2025-4GP-Haistelle-Lucbourd/blob/main/README.md#i---un-capteur-%C3%A0-base-de-graphite-cest-possible-)
 
-[II - Simulation sous LTSpice](https://github.com/MOSH-Insa-Toulouse/2024-2025-4GP-Haistelle-Lucbourd/edit/main/README.md#ii---simulation-sous-ltspice)
+[II - Simulation sous LTSpice](https://github.com/MOSH-Insa-Toulouse/2024-2025-4GP-Haistelle-Lucbourd/blob/main/README.md#ii---simulation-sous-ltspice)
 
-[III - Réalisation du PCB avec KiCAD](https://github.com/MOSH-Insa-Toulouse/2024-2025-4GP-Haistelle-Lucbourd/edit/main/README.md#iii---r%C3%A9alisation-du-pcb-avec-kicad)
+[III - Réalisation du PCB avec KiCAD](https://github.com/MOSH-Insa-Toulouse/2024-2025-4GP-Haistelle-Lucbourd/blob/main/README.md#iii---r%C3%A9alisation-du-pcb-avec-kicad)
 
-[IV - Le banc de test automatisé](https://github.com/MOSH-Insa-Toulouse/2024-2025-4GP-Haistelle-Lucbourd/edit/main/README.md#iv---le-banc-de-test-automatis%C3%A9)
+[IV - Le banc de test automatisé](https://github.com/MOSH-Insa-Toulouse/2024-2025-4GP-Haistelle-Lucbourd/blob/main/README.md#iv---le-banc-de-test-automatis%C3%A9)
 
-[V - Le code Arduino pour piloter le projet](https://github.com/MOSH-Insa-Toulouse/2024-2025-4GP-Haistelle-Lucbourd/edit/main/README.md#v---le-code-arduino-pour-piloter-le-projet)
+[V - Le code Arduino pour piloter le projet](https://github.com/MOSH-Insa-Toulouse/2024-2025-4GP-Haistelle-Lucbourd/blob/main/README.md#v---le-code-arduino-pour-piloter-le-projet)
 
-[VI - L'application Android avec Mit App Inventor](https://github.com/MOSH-Insa-Toulouse/2024-2025-4GP-Haistelle-Lucbourd/edit/main/README.md#vi---lapplication-android-avec-mit-app-inventor)
+[VI - L'application Android avec Mit App Inventor](https://github.com/MOSH-Insa-Toulouse/2024-2025-4GP-Haistelle-Lucbourd/blob/main/README.md#vi---lapplication-android-avec-mit-app-inventor)
 
-[Conclusion](https://github.com/MOSH-Insa-Toulouse/2024-2025-4GP-Haistelle-Lucbourd/edit/main/README.md#conclusion)
+[Conclusion](https://github.com/MOSH-Insa-Toulouse/2024-2025-4GP-Haistelle-Lucbourd/blob/main/README.md#conclusion)
 
 # Présentation du projet 
  
