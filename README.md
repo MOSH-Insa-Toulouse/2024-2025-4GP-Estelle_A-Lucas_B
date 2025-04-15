@@ -12,7 +12,7 @@ De plus, le capteur graphite réalisé sera testé de manière à comparer ses p
 
  ## Livrables
 À la fin de ce projet, plusieurs livrables sont attendus:
-- Un **Shield PCB** sur lequel seront connectés tous les éléments cités dans la partie [Matériel utilisé](https://github.com/MOSH-Insa-Toulouse/2024-2025-4GP-Haistelle-Lucbourd/blob/main/README.md#mat%C3%A9riel-utilis%C3%A9)
+- Un **PCB** sur lequel seront connectés tous les éléments cités dans la partie [Matériel utilisé](https://github.com/MOSH-Insa-Toulouse/2024-2025-4GP-Haistelle-Lucbourd/blob/main/README.md#mat%C3%A9riel-utilis%C3%A9)
 - Un **banc de test** pour étudier la déformation du capteur graphite et du capteur commercial
 - Un **code Arduino** qui permette de contrôler le banc de test et d'afficher les mesures de résistances
 - Une **datasheet** qui énonce toutes les caractéristiques du capteur graphite
@@ -28,6 +28,7 @@ Pour le **montage**, voici tout le matériel requis:
 - Un capteur de déformation commercial (FlexSensor) pour effectuer une comparaison
 - Des crayons à papiers différents pour les tests
 - Un servo moteur
+- Des header de différentes tailles pour fixer les composants sur le PCB
 - Une résistance de 33k
 
 Pour réaliser **l'amplificateur transimpédance**, la liste de matériel est la suivante:
@@ -42,11 +43,22 @@ Pour réaliser **l'amplificateur transimpédance**, la liste de matériel est la
 
 # II - Simulation sous LTSpice
 
-## A) Montage avec l'amplificateur transinpédance
+## A) Montage avec l'amplificateur transimpédance
 
-## B) Résultats de simulation
+## B) Résultats de la simulation
 
 # III - Réalisation du PCB avec KiCAD
+
+Ensuite, nous avons designé un PCB simple face à l'aide du logiciel KiCAD. Pour ce faire, nous avons:
+1) Dessiner les composants tels que l'OLED, l'encoder rotatif, le module Bluetooth, le capteur commercial et le capteur graphite
+2) Réaliser les empreintes de ces composants
+3) Sélectionner les résistances, les condensateurs et l'AOP pour réaliser l'amplificateur transimpédance dans l'éditeur de Schématique
+4) Établir les points de connexion entre la carte Arduino et tous les composants
+5) Positioner les composants sur la PCB
+6) Importer les modèles 3D pour les composants non-présents par défaut dans les librairies
+7) Faire le routage dans l'éditeur de PCB en évitant au maximum les masses flottantes et les vias
+
+**N.B**: Le servo moteur n'appairaît pas ici car il sera relié à la carte Arduino par le biais d'un header.
 
 # IV - Le banc de test automatisé
 
