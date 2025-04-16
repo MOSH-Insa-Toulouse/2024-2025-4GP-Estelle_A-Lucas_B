@@ -63,8 +63,11 @@ Pour réaliser **l'amplificateur transimpédance**, la liste de matériel est la
 
 <div align="justify">
 Oui et c'est ce qu'a montré l'équipe de chercheurs Lin, CW., Zhao, Z., Kim, J. et al. dans l'article <em>Pencil Drawn Strain Gauges and Chemiresistors on Paper</em> paru en 2014. En effet, les crayons à papier sont composés de graphite et d'argile dans des proportions différentes. Par exemple, le crayon HB est constitué à 50% de graphite et à 50% d'argile. Ces différences de compositions entraînent des propriétés de conduction qui diffèrent selon le type de crayon utilisé. Lorsque l'on dépose du crayon à papier sur une feuille, les nanoparticules de graphites déposées constituent un système dit "granulaire". Il s'agit d'un système dont les grains forment un réseau très désordonné au sein duquel les électrons se déplacent d'un grain à un autre par effet tunnel. L'équipe de chercheurs à donc démontré que les crayons "durs" comme l'HB possédaient une résistance plus importante que les crayons "tendres" comme le 9B. Ceci s'explique par le fait que les crayons durs  comme l'HB contiennent plus d'argile qu'un crayon mou qui contient plus de graphite. L'argile joue le rôle d'un isolant, plus il y en a, plus la conduction des électrons au sein du matériau est difficile. À l'inverse, les nanoparticules de graphites permettent la conduction des électrons, c'est pour cela que le crayon 9B est moins résistif que le crayon HB. 
- [INSÉRER IMAGE ÉCHELLE CRAYON PAPIER + IMAGE SYSTÈME GRANULAIRE]
- 
+<div align="center">
+  <img src="I-Photos/type_crayons.jpg"/>
+  <p><em>Figure : Les différents types de crayons: du 9B au 9H</em></p>
+</div>
+
 De plus, les chercheurs ont aussi prouvé que les crayons pouvaient se comporter comme des jauges de contraintes. En dessinant au crayon une forme de U avec deux rectangles au bout pour les électrodes de contact, les chercheurs ont remarqué qu'une  déformation en compression et en tension avaient des effets différents sur la résistance du capteur. La compression du capteur compresse les particules de graphites et induit une diminution de la résistance. Au contraire, la tension du capteur éloigne les particules de graphite ce qui augmente résistance. 
 <div align="center">
   <img src="I-Photos/schema_tension_compression.png"/>
