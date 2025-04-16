@@ -73,6 +73,12 @@ De plus, les chercheurs ont aussi prouvé que les crayons pouvaient se comporter
   <img src="I-Photos/schema_tension_compression.png"/>
   <p><em>Figure : Structure granulaire en compression et en tension</em></p>
 </div>
+
+<div align="center">
+  <img src="I-Photos/photo_compression_tension.png"/>
+  <p><em>Figure : c) Capteur graphite en compression d) Capteur graphite en tension </em></p>
+</div>
+
 Cependant, l'équipe conclut que l'observation de ces phénomènes n'est pas possible pour des crayons composés de plus d'argile que le crayon HB. Selon eux, le réseau de nanopaticules du crayon HB se situe juste au dessus du seuil de percolation. Le seuil de percolation c'est le seuil à partir duquel le matériau devient conducteur car les électrons peuvent traverser. Néanmoins, nous allons montré que, grâce à l'utilisation d'un amplificateur transimpédance, il est possible de mesurer des résistances pour des crayons plus tendres que le HB. Par conséquent, la structure de ces crayons permet de passage des électrons et ne se situe pas en dessous du seuil de percolation.   
 </div>
 
