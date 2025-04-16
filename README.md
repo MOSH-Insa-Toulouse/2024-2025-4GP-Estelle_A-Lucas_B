@@ -85,11 +85,13 @@ De plus, les chercheurs ont aussi prouvé que les crayons pouvaient se comporter
 Cependant, l'équipe conclut que l'observation de ces phénomènes n'est pas possible pour des crayons composés de plus d'argile que le crayon HB. Selon eux, le réseau de nanopaticules du crayon HB se situe juste au dessus du <strong>seuil de percolation</strong>. Le seuil de percolation c'est le seuil à partir duquel le matériau devient conducteur car les électrons peuvent traverser. Néanmoins, nous allons montré que, grâce à l'utilisation d'un <strong>amplificateur transimpédance</strong>, il est possible de mesurer des résistances pour des crayons plus tendres que le HB. Par conséquent, la structure de ces crayons permet de passage des électrons et ne se situe pas en dessous du seuil de percolation.   
 </div>
 
-
-
 # II - Simulation sous LTSpice
 
+D'après l'étude menée par les chercheurs, le capteur graphite a une résistance qui peut varier d'une centaine de kohms à des Mohms. Les résistances très élevées sont délicates à mesurer. En effet, une méthode classique consiste à utiliser un ohmmètre mais pour mesurer des résistances de cet ordre de grandeur les options sont chères. De plus, nous utilisons une carte Arduino dont l'impédance maximale de la source ne peut pas dépasser 10 kohms. Il n'est donc pas possible de brancher directement notre capteur graphite sur la carte. De ce fait, nous allons amplifier le signal et diminuer son impédance à l'aide d'un amplificateur transimpédance. Nous utilisons pour cela un amplificateur LTC1050 car il est suffisamment sensible pour amplifier correctement le signal. Il s'agit également d'un amplificateur très précis qui possède un offset voltage de 5 uV, négligeable par rapport à la tension mesurée sur l'entrée non-inverseuse. Si l'on considère que le courant délivré par le capteur graphite est de 100 nA et que la résistance de R1 vaut 100komhs, alors la tension V+ = I x R1 = 10 mV >> 5 uV. De plus, il va falloir filtrer le bruit.
+
 ## A) Montage avec l'amplificateur transimpédance
+
+
 
 ## B) Résultats de la simulation
 
@@ -108,7 +110,7 @@ Cependant, l'équipe conclut que l'observation de ces phénomènes n'est pas pos
 
 **5)** **Positioner** les composants sur la PCB
 
-**6)** Importer les **modèles 3D** pour les composants non-présents par défaut dans les librairies
+**6)** Importer les **modèles 3D** pour les composants non-présents par défaut dans les librairies (OLED, encoder rotatif, module Bluetooth, capteur commercial)
 
 **7)** Faire **le routage** dans l'éditeur de PCB en évitant au maximum les masses flottantes et les vias
 
