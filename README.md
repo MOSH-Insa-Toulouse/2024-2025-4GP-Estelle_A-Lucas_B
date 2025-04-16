@@ -62,14 +62,14 @@ Pour réaliser **l'amplificateur transimpédance**, la liste de matériel est la
 # I - Un capteur à base de graphite, c'est possible ?
 
 <div align="justify">
-Oui et c'est ce qu'a montré l'équipe de chercheurs Lin, CW., Zhao, Z., Kim, J. et al. dans l'article <em>Pencil Drawn Strain Gauges and Chemiresistors on Paper</em> paru en 2014. En effet, les crayons à papier sont composés de graphite et d'argile dans des proportions différentes. Par exemple, le crayon HB est constitué à 50% de graphite et à 50% d'argile. Ces différences de compositions entraînent des propriétés de conduction qui diffèrent selon le type de crayon utilisé. Lorsque l'on dépose du crayon à papier sur une feuille, les nanoparticules de graphites déposées constituent un système dit "granulaire". Il s'agit d'un système dont les grains forment un réseau très désordonné au sein duquel les électrons se déplacent d'un grain à un autre par effet tunnel. L'équipe de chercheurs à donc démontré que les crayons "durs" comme l'HB possédaient une résistance plus importante que les crayons "tendres" comme le 9B. Ceci s'explique par le fait que les crayons durs  comme l'HB contiennent plus d'argile qu'un crayon mou qui contient plus de graphite. L'argile joue le rôle d'un isolant, plus il y en a, plus la conduction des électrons au sein du matériau est difficile. À l'inverse, les nanoparticules de graphites permettent la conduction des électrons, c'est pour cela que le crayon 9B est moins résistif que le crayon HB. 
+Oui et c'est ce qu'a montré l'équipe de chercheurs Lin, CW., Zhao, Z., Kim, J. et al. dans l'article <em>Pencil Drawn Strain Gauges and Chemiresistors on Paper</em> paru en 2014. En effet, les crayons à papier sont composés de graphite et d'argile dans des proportions différentes. Par exemple, le crayon HB est constitué à 50% de graphite et à 50% d'argile. Ces différences de compositions entraînent des propriétés de conduction qui diffèrent selon le type de crayon utilisé. Lorsque l'on dépose du crayon à papier sur une feuille, les nanoparticules de graphites déposées constituent un système dit <strong>granulaire</strong>. Il s'agit d'un système dont les grains forment un réseau très désordonné au sein duquel les électrons se déplacent d'un grain à un autre par <strong>effet tunnel</strong>. L'équipe de chercheurs à donc démontré que les crayons <strong>durs</strong> comme l'HB possédaient une résistance plus importante que les crayons <strong>légers</strong> comme le 9B. Ceci s'explique par le fait que les crayons durs comme l'HB contiennent plus d'argile qu'un crayon léger qui contient plus de graphite. L'argile joue le rôle d'un isolant, plus il y en a, plus la conduction des électrons au sein du matériau est difficile. À l'inverse, les nanoparticules de graphites permettent la conduction des électrons, c'est pour cela que le crayon 9B est moins résistif que le crayon HB. 
 <div align="center">
   <img src="I-Photos/type_crayons.jpg"/>
   <p><em>Figure : Les différents types de crayons: du 9B au 9H</em></p>
  <p><em>d'après le site Passage Clouté à l'adresse<a href="https://passagecloute.com/blog/post/8_comment-choisir-le-bon-crayon-graphite-du-9h-au-9b.html?page_type=post"> suivante</a> </em></p>
 </div>
 
-De plus, les chercheurs ont aussi prouvé que les crayons pouvaient se comporter comme des jauges de contraintes. En dessinant au crayon une forme de U avec deux rectangles au bout pour les électrodes de contact, les chercheurs ont remarqué qu'une  déformation en compression et en tension avaient des effets différents sur la résistance du capteur. La compression du capteur compresse les particules de graphites et induit une diminution de la résistance. Au contraire, la tension du capteur éloigne les particules de graphite ce qui augmente résistance. 
+De plus, les chercheurs ont aussi prouvé que les crayons pouvaient se comporter comme des <strong>jauges de contraintes</strong>. En dessinant au crayon une forme de U avec deux rectangles au bout pour les électrodes de contact, les chercheurs ont remarqué qu'une déformation en compression et en tension avaient des effets différents sur la <strong>résistance</strong> du capteur. La compression du capteur compresse les particules de graphites et induit une diminution de la résistance. Au contraire, la tension du capteur éloigne les particules de graphite ce qui augmente résistance. 
 <div align="center">
   <img src="I-Photos/schema_tension_compression.png"/>
   <p><em>Figure : Structure granulaire en compression et en tension</em></p>
@@ -82,7 +82,7 @@ De plus, les chercheurs ont aussi prouvé que les crayons pouvaient se comporter
 </div>
 
 
-Cependant, l'équipe conclut que l'observation de ces phénomènes n'est pas possible pour des crayons composés de plus d'argile que le crayon HB. Selon eux, le réseau de nanopaticules du crayon HB se situe juste au dessus du seuil de percolation. Le seuil de percolation c'est le seuil à partir duquel le matériau devient conducteur car les électrons peuvent traverser. Néanmoins, nous allons montré que, grâce à l'utilisation d'un amplificateur transimpédance, il est possible de mesurer des résistances pour des crayons plus tendres que le HB. Par conséquent, la structure de ces crayons permet de passage des électrons et ne se situe pas en dessous du seuil de percolation.   
+Cependant, l'équipe conclut que l'observation de ces phénomènes n'est pas possible pour des crayons composés de plus d'argile que le crayon HB. Selon eux, le réseau de nanopaticules du crayon HB se situe juste au dessus du <strong>seuil de percolation</strong>. Le seuil de percolation c'est le seuil à partir duquel le matériau devient conducteur car les électrons peuvent traverser. Néanmoins, nous allons montré que, grâce à l'utilisation d'un <strong>amplificateur transimpédance</strong>, il est possible de mesurer des résistances pour des crayons plus tendres que le HB. Par conséquent, la structure de ces crayons permet de passage des électrons et ne se situe pas en dessous du seuil de percolation.   
 </div>
 
 
@@ -96,6 +96,7 @@ Cependant, l'équipe conclut que l'observation de ces phénomènes n'est pas pos
 # III - Réalisation du PCB avec KiCAD
 
 <div align="justify"> Ensuite, nous avons designé un PCB simple face à l'aide du logiciel KiCAD. Il est à noter que l'entrée du capteur graphite est reliée à l'amplificateur transimpédance. Le conditionneur utilisé pour le capteur commercial est un pont diviseur de tension avec une résistance de 33k. De plus, nous avons ajouté un condensateur pour faire du débouncing sur l'encoder rotatif. Nous avons suivi ces étapes:</div>
+
 
 **1)** **Dessiner** les composants tels que l'OLED, l'encoder rotatif, le module Bluetooth, le capteur commercial et le capteur graphite
 
