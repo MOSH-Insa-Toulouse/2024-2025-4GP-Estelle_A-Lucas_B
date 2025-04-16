@@ -189,6 +189,11 @@ Le servo moteur effectuera 5 aller-retours jusqu'à la position 150 du servo à 
 [INSÉRER IMAGE]
 <div align="justify"> L'écran de démarrage comporte un seul bouton "Démarrer" sur lequel il suffit de cliquer pour lancer l'application.</div>
 
+<div align="center">
+  <img src="VI - Application Android/lutelle-s_app_screen1.png"/>
+  <p><em>Figure : Écran de démarrage de l'application </em></p>
+</div>
+
 ## B) L'interface principale et ses fonctionalités
 [INSÉRER IMAGE]
 
