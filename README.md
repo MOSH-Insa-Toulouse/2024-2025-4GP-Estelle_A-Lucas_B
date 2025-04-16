@@ -195,9 +195,12 @@ Le servo moteur effectuera 5 aller-retours jusqu'à la position 150 du servo à 
 </div>
 
 ## B) L'interface principale et ses fonctionalités
-[INSÉRER IMAGE]
 
 <div align="justify"> Sur le deuxième écran, l'utilisateur doit tout d'abord connecter son téléphone au module Bluetooth pour recevoir les données. Lorsque la connexion est établie, le bouton "Bluetooth connexion" s'affiche en vert. Ensuite, un switch permet de définir quel capteur est utilisé. Si l'on utilise le capteur graphite, il faut renseigner la valeur du potentiomètre numérique dans la case rose pour afficher la bonne valeur de résistance dans la case bleue claire. Un graphique en dessous permet d'afficher en direct les bytes reçus par le module Bluetooth. Les bytes reçus sont également affichés dans la case jaune en dessous du graphique. </div>
+<div align="center">
+  <img src="VI - Application Android/lutelle-s_app_screen2.png"/>
+  <p><em>Figure : Écran de démarrage de l'application </em></p>
+</div>
 
 # Conclusion
 
