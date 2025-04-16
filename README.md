@@ -66,6 +66,7 @@ Oui et c'est ce qu'a montré l'équipe de chercheurs Lin, CW., Zhao, Z., Kim, J.
 <div align="center">
   <img src="I-Photos/type_crayons.jpg"/>
   <p><em>Figure : Les différents types de crayons: du 9B au 9H</em></p>
+ <p><em>d'après le site Passage Clouté à l'adresse<a href="https://passagecloute.com/blog/post/8_comment-choisir-le-bon-crayon-graphite-du-9h-au-9b.html?page_type=post"> suivante</a> </em></p>
 </div>
 
 De plus, les chercheurs ont aussi prouvé que les crayons pouvaient se comporter comme des jauges de contraintes. En dessinant au crayon une forme de U avec deux rectangles au bout pour les électrodes de contact, les chercheurs ont remarqué qu'une  déformation en compression et en tension avaient des effets différents sur la résistance du capteur. La compression du capteur compresse les particules de graphites et induit une diminution de la résistance. Au contraire, la tension du capteur éloigne les particules de graphite ce qui augmente résistance. 
@@ -77,10 +78,14 @@ De plus, les chercheurs ont aussi prouvé que les crayons pouvaient se comporter
 <div align="center">
   <img src="I-Photos/photo_compression_tension.png"/>
   <p><em>Figure : c) Capteur graphite en compression d) Capteur graphite en tension </em></p>
+ <p><em>d'après Lin, CW., Zhao, Z., Kim, J. et al., 2014 </em></p>
 </div>
+
 
 Cependant, l'équipe conclut que l'observation de ces phénomènes n'est pas possible pour des crayons composés de plus d'argile que le crayon HB. Selon eux, le réseau de nanopaticules du crayon HB se situe juste au dessus du seuil de percolation. Le seuil de percolation c'est le seuil à partir duquel le matériau devient conducteur car les électrons peuvent traverser. Néanmoins, nous allons montré que, grâce à l'utilisation d'un amplificateur transimpédance, il est possible de mesurer des résistances pour des crayons plus tendres que le HB. Par conséquent, la structure de ces crayons permet de passage des électrons et ne se situe pas en dessous du seuil de percolation.   
 </div>
+
+
 
 # II - Simulation sous LTSpice
 
