@@ -174,8 +174,8 @@ Le menu démarrage permet de lancer l'acquisition de mesure. Il prend en compte 
 - **Mode de mesure**: 5
 Le servo moteur effectuera 5 aller-retours jusqu'à la position 150 du servo à une vitesse de 52% de la vitessse maximale.
 <div align="center">
-  <img src=""/>
-  <p><em></em></p>
+  <img src="V - Code arduino/Lancer_mesure.png"/>
+  <p><em>Figure : Algorigramme qui présente le déroulé de la fonction "Démarrage"</em></p>
 </div>
 
 ### 8 - Le menu "LiveVIEW"
