@@ -172,9 +172,12 @@ Le menu démarrage permet de lancer l'acquisition de mesure. Il prend en compte 
 - **Vitesse**: 52%
 - **Borne**: 150
 - **Mode de mesure**: 5
-Le servo moteur effectuera 5 aller-retours jusqu'à la position 150 du servo à une vitesse de 52% de la vitessse maximale. 
+Le servo moteur effectuera 5 aller-retours jusqu'à la position 150 du servo à une vitesse de 52% de la vitessse maximale.
+<div align="center">
+  <img src=""/>
+  <p><em></em></p>
+</div>
 
- [INSÉRER ALGORIGRAMME]
 ### 8 - Le menu "LiveVIEW"
  [INSÉRER IMAGE]
 <div align="justify"> Ce menu permet un affichage en direct de la valeur de résistance lue par l'entrée analogique. Il faut se placer à l'intérieur de ce menu pour utiliser l'application Android car les données sont envoyées au téléphone via le module Bluetooth HC-05. </div>
