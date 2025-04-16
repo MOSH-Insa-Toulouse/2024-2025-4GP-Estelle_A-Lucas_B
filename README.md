@@ -7,7 +7,7 @@ Projet capteur 2024 - 2025 | Estelle AUBRY et Lucas BOURDARIE | 4ème année, 59
 
 [I - Un capteur à base de graphite, c'est possible ?](https://github.com/MOSH-Insa-Toulouse/2024-2025-4GP-Haistelle-Lucbourd?tab=readme-ov-file#i---un-capteur-%C3%A0-base-de-graphite-cest-possible-)
 
-[II - Simulation sous LTSpice](https://github.com/MOSH-Insa-Toulouse/2024-2025-4GP-Haistelle-Lucbourd/blob/main/README.md#ii---simulation-sous-ltspice)
+[II - Simulation sous LTSpice](https://github.com/MOSH-Insa-Toulouse/2024-2025-4GP-Haistelle-Lucbourd?tab=readme-ov-file#ii---simulation-sous-ltspice)
 
 [III - Réalisation du PCB avec KiCAD](https://github.com/MOSH-Insa-Toulouse/2024-2025-4GP-Haistelle-Lucbourd/blob/main/README.md#iii---r%C3%A9alisation-du-pcb-avec-kicad)
 
