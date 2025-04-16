@@ -67,6 +67,8 @@ Oui et c'est ce qu'a montré l'équipe de chercheurs Lin, CW., Zhao, Z., Kim, J.
  
 De plus, les chercheurs ont aussi prouvé que les crayons pouvaient se comporter comme des jauges de contraintes. En dessinant au crayon une forme de U avec deux rectangles au bout pour les électrodes de contact, les chercheurs ont remarqué qu'une  déformation en compression et en tension avaient des effets différents sur la résistance du capteur. La compression du capteur compresse les particules de graphites et induit une diminution de la résistance. Au contraire, la tension du capteur éloigne les particules de graphite ce qui augmente résistance. [INSÉRER IMAGE COMPRESSION/TENSION]
 
+![Compression et tension](2024-2025-4GP-Haistelle-Lucbourd/I-Photos/schema_tension_compression.png)
+
 Cependant, l'équipe conclut que l'observation de ces phénomènes n'est pas possible pour des crayons composés de plus d'argile que le crayon HB. Selon eux, le réseau de nanopaticules du crayon HB se situe juste au dessus du seuil de percolation. Le seuil de percolation c'est le seuil à partir duquel le matériau devient conducteur car les électrons peuvent traverser. Néanmoins, nous allons montré que, grâce à l'utilisation d'un amplificateur transimpédance, il est possible de mesurer des résistances pour des crayons plus tendres que le HB. Par conséquent, la structure de ces crayons permet de passage des électrons et ne se situe pas en dessous du seuil de percolation.   
 </div>
 
