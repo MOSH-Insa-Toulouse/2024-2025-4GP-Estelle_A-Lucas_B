@@ -242,28 +242,33 @@ Le servo moteur effectuera 5 aller-retours jusqu'à la position 150 du servo à 
 ## A) Les mesures obtenues
 
 <div align="center">
-  <img src=""/>
-  <p><em>Figure : Écran de démarrage de l'application </em></p>
+  <img src="Conclusion/Tens_flex.png"/>
+  <p><em>Figure : tension du capteur commercial </em></p>
 </div>
 
 <div align="center">
-  <img src=""/>
-  <p><em>Figure : Écran de démarrage de l'application </em></p>
+  <img src="Conclusion/Tens_3B.png"/>
+  <p><em>Figure : tension du crayon 3B</em></p>
 </div>
 
 <div align="center">
-  <img src=""/>
-  <p><em>Figure : Écran de démarrage de l'application </em></p>
+  <img src="Conclusion/Tens_HB2.png"/>
+  <p><em>Figure : tension du crayon HB </em></p>
 </div>
 
 <div align="center">
-  <img src=""/>
-  <p><em>Figure : Écran de démarrage de l'application </em></p>
+  <img src="Conclusion/Tens_H.png"/>
+  <p><em>Figure : tension du crayon H </em></p>
 </div>
 
 <div align="center">
-  <img src=""/>
-  <p><em>Figure : Écran de démarrage de l'application </em></p>
+  <img src="Conclusion/Comp_3B.png"/>
+  <p><em>Figure : compression du crayon 3B </em></p>
+</div>
+
+<div align="center">
+  <img src="Conclusion/Comp_HB2.png"/>
+  <p><em>Figure : compression du crayon HB </em></p>
 </div>
 
 <div align="center">
