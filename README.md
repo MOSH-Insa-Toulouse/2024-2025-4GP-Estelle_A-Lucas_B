@@ -98,18 +98,30 @@ Cependant, l'équipe conclut que l'observation de ces phénomènes n'est pas pos
 <div align="justify">
 De plus, il va falloir filtrer le bruit. Pour ce faire, nous mettons en place 3 filtres passe-bas:
  <ul>
-  <li>un pour filtrer le bruit du capteur en jaune</li>
-  <li>un pour filtrer le 50Hz en vert </li>
-  <li>un pour filtrer les variations plus rapides que 7kHz en rouge </li>
+  <li>un pour filtrer le bruit du capteur en jaune.</li>
+  <li>un pour filtrer le 50Hz en vert.</li>
+  <li>un pour filtrer les variations plus rapides que 7kHz en rouge. D'après le critère de Shannon, fech > 2*fsignal. Or, pour une carte Arduino, la fréquence d'échantillonage vaut 15 kHz donc fsignal < 7kHz.  </li>
 </ul>
 </div>
 
 ## B) Formules
+À partir de ce montage, nous pouvons établir la formule nécessaire pour relier la tension en sortie de l'amplificateur transimpédance Vadc à la résistance du capteur graphite.
+
+<div align="center">
+  <img src="II - Simulation/equation_V2.png"/>
+  <p><em>Figure : Formule qui lie la résistance du capteur graphite à la tension Vadc mesurée en sortie </em></p>
+</div>
+
+De la même manière, pour le capteur commercial, nous faisons un pont diviseur de tension avec une résistance de 33k. La formule qui relie la tension de sortie V_flex à la résistance du capteur commercial est la suivante: 
+
+<div align="center">
+  <img src="II - Simulation/equation_V2.png"/>
+  <p><em>Figure : Formule qui lie la résistance du capteur commercial à la tension V_flex mesurée en sortie </em></p>
+</div>
 
 # III - Réalisation du PCB avec KiCAD
 
 <div align="justify"> Ensuite, nous avons designé un PCB simple face à l'aide du logiciel KiCAD. Il est à noter que l'entrée du capteur graphite est reliée à l'amplificateur transimpédance. Le conditionneur utilisé pour le capteur commercial est un pont diviseur de tension avec une résistance de 33k. De plus, nous avons ajouté un condensateur pour faire du débouncing sur l'encoder rotatif. Nous avons suivi ces étapes:</div>
-
 
 **1)** **Dessiner** les composants tels que l'OLED, l'encoder rotatif, le module Bluetooth, le capteur commercial et le capteur graphite
 
