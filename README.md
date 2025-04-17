@@ -303,6 +303,11 @@ Nous avons également réalisé nos tests sur le capteur commercial pour pouvoir
   <p><em>Figure : tension du capteur commercial </em></p>
 </div>
 
+Voici un tableau récapitulatif de nos relevés de mesures.
+
+
+
+
 ## B) Comparaison avec un capteur commercial: qui sera le meilleur ?
 
 
