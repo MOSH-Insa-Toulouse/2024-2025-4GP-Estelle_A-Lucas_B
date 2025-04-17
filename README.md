@@ -234,12 +234,32 @@ Le servo moteur effectuera 5 aller-retours jusqu'à la position 150 du servo à 
   <p><em>Figure : Écran de démarrage de l'application </em></p>
 </div>
 
-# Conclusion
+# Résultats
+
+<div align="justify"> 
+Pour réaliser nos mesures, nous avons tracé l'évolution de la variation relative de résistance en fonction de la déformation. Pour la variation relative de résistance, nous appliquons la formule suivante:
+<div align="center">
+  <img src=""/>
+  <p><em>Figure : Formule de la variation relative de résistance</em></p>
+</div>
+Pour calculer la déformation, nous effectuons le calcul ci-dessous pour tous nos rayons de courbures afin de trouver la déformation correspondante.
+ <div align="center">
+  <img src=""/>
+  <p><em>Figure : Formule pour calculer la déformation</em></p>
+</div>
+</div>
 
 <div align="justify">  Pour réaliser tous nos tests nous avons choisi une vitesse de 52% pour le servo moteur. Les crayons testés sont le 6B, 5B, 4B, 3B, B, HB, F et H pour des mesures en tension. Les tests ont été effectués sur chaque rayon de courbure disponible. Pour les mesures en compression, les tests ont été réalisés sur les crayons 6B, 3B et HB pour des rayons de courbure allant jusqu'à [...]. Pour <strong> chaque point </strong>, nous avons réalisé 5 mesures de résistance pour un type de crayon et un rayon de courbure donné et pris la moyenne de ces 5 mesures comme résultat final. Au total, pour les mesures en tension cela nous fait 8 (crayons) x 8 (supports) x 5 (mesures pour 1 type de crayon et un rayon de courbure donné) = <strong>320 mesures</strong>. Pour les mesures en compression, nous avons 3 (crayons) x 6 (supports) x 5 (mesures) = <strong>90 mesures</strong>. Nous n'avons pas pu réaliser les mesures en compression pour tous les rayons de courbure disponibles car le capteur se déteriorait au fur et à mesure des tests.  Ainsi, pour ce projet nous avons effectué plus de 400 mesures pour caractériser notre capteur. 
 </div>
 
 ## A) Les mesures obtenues
+
+<div align="justify"> Voici les résultats de toutes nos mesures en tension (figure) et en compression (figure). Les courbes obtenues sont cohérentes avec les résultats de Lin, CW., Zhao, Z., Kim, J. et al.En effet, les crayons plus durs comme le 6B possèdent une sensibilité plus faible que les crayons plus doux comme le HB par exemple.   </div>
+
+<div align="center">
+  <img src="Conclusion/Tot_tens.png"/>
+  <p><em>Figure : Écran de démarrage de l'application </em></p>
+</div>
 
 <div align="center">
   <img src="Conclusion/Tens_flex.png"/>
@@ -269,11 +289,6 @@ Le servo moteur effectuera 5 aller-retours jusqu'à la position 150 du servo à 
 <div align="center">
   <img src="Conclusion/Comp_HB2.png"/>
   <p><em>Figure : compression du crayon HB </em></p>
-</div>
-
-<div align="center">
-  <img src=""/>
-  <p><em>Figure : Écran de démarrage de l'application </em></p>
 </div>
 
 
