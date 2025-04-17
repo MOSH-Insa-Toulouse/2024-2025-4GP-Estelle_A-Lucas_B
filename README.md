@@ -87,11 +87,18 @@ Cependant, l'équipe conclut que l'observation de ces phénomènes n'est pas pos
 
 # II - Simulation sous LTSpice
 
-<div align="justify"> D'après l'étude menée par les chercheurs, le capteur graphite a une résistance qui peut varier d'une centaine de kohms à des Mohms. Les résistances très élevées sont délicates à mesurer. En effet, une méthode classique consiste à utiliser un ohmmètre mais pour mesurer des résistances de cet ordre de grandeur les options sont chères. De plus, nous utilisons une carte Arduino dont l'impédance maximale de la source ne peut pas dépasser 10 kohms. Il n'est donc pas possible de brancher directement notre capteur graphite sur la carte. De ce fait, nous allons amplifier le signal et diminuer son impédance à l'aide d'un amplificateur transimpédance. Nous utilisons pour cela un amplificateur LTC1050 car il est suffisamment sensible pour amplifier correctement le signal. Il s'agit également d'un amplificateur très précis qui possède un offset voltage de 5 uV, négligeable par rapport à la tension mesurée sur l'entrée non-inverseuse. Si l'on considère que le courant délivré par le capteur graphite est de 100 nA et que la résistance de R1 vaut 100komhs, alors la tension V+ = I x R1 = 10 mV >> 5 uV. De plus, il va falloir filtrer le bruit.</div>
+<div align="justify"> D'après l'étude menée par les chercheurs, le capteur graphite a une résistance qui peut varier d'une centaine de kohms à des Mohms. Les résistances très élevées sont délicates à mesurer. En effet, une méthode classique consiste à utiliser un ohmmètre mais pour mesurer des résistances de cet ordre de grandeur les options sont chères. De plus, nous utilisons une carte Arduino dont l'impédance maximale de la source ne peut pas dépasser 10 kohms. Il n'est donc pas possible de brancher directement notre capteur graphite sur la carte. De ce fait, nous allons amplifier le signal et diminuer son impédance à l'aide d'un amplificateur transimpédance. Nous utilisons pour cela un amplificateur opérationnel LTC1050 car il est suffisamment sensible pour amplifier correctement le signal. Il s'agit également d'un amplificateur très précis qui possède un offset voltage de 5 uV, négligeable par rapport à la tension mesurée sur l'entrée non-inverseuse. Si l'on considère que le courant délivré par le capteur graphite est de 100 nA et que la résistance de R1 vaut 100komhs, alors la tension V+ = I x R1 = 10 mV >> 5 uV.</div>
 
 ## A) Montage avec l'amplificateur transimpédance
 
-
+<div align="justify">
+De plus, il va falloir filtrer le bruit. Pour ce faire, nous mettons en place 3 filtres passa-bas:
+ <ul>
+  <li>un pour filtrer le bruit du capteur en jaune</li>
+  <li>Un pour filtrer le 50Hz en vert </li>
+  <li>Un pour filtrer les variations plus rapides que 7kHz. D'après le critère de Shannon, fech > 2fsignal. Sur une carte Arduino, la fréquence d'échantillonnage vaut 200kHz</li>
+</ul>
+</div>
 
 ## B) Résultats de la simulation
 
@@ -158,7 +165,10 @@ Ce menu souhaite la bienvenue à l'utilisateur. Il ne possède pas le fonctional
 ### 4 - Le menu "VITESSE"
  [INSÉRER IMAGE]
 <div align="justify"> Dans le menu "Vitesse", l'utilisateur peut régler la vitesse à laquelle il souhaite effectuer les mesures, c'est-à-dire, la vitesse à laquelle la glissère reliée au servo moteur va se déplacer. L'écran affiche un pourcentage qui correspond à la vitesse du servo moteur. 0% correspond à la vitesse minimale et 100% la vitesse maximale. Pour augmenter la vitesse, il est nécessaire de tourner l'encodeur rotatoire dans le sens anti-horaire car il s'agit en réalité de "diminuer" un délai. De plus, lorsque la vitesse change (= l'encoder change de position), le servo moteur effectue un aller-retour au cours duquel il est possible faire varier la vitesse du servo à l'aide de l'encoder jusqu'à obtenir la vitesse désirée. L'affichage en % de la vitesse s'effectue <ins> à la fin </ins> de l'aller-retour. Il n'y a donc pas d'affichage en direct de la vitesse mais seulement après que le servo moteur ait fait un aller-retour. </div>
- [INSÉRER ALGORIGRAMME]
+<div align="center">
+  <img src="V - Code arduino/Vitesse.png"/>
+  <p><em>Figure : Algorigramme qui présente le déroulé de la fonction "Vitesse"</em></p>
+</div>
 
 ### 5 - Le menu "BORNE"
  [INSÉRER IMAGE]
