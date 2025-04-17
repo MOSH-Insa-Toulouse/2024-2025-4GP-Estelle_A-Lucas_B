@@ -239,7 +239,7 @@ Le servo moteur effectuera 5 aller-retours jusqu'à la position 150 du servo à 
 <div align="justify"> 
 Pour réaliser nos mesures, nous avons tracé l'évolution de la variation relative de résistance en fonction de la déformation. Pour la variation relative de résistance, nous appliquons la formule suivante:
 <div align="center">
-  <img src=""/>
+  <img src="Conclusion/Eq_deltaR_sur_R.png"/>
   <p><em>Figure : Formule de la variation relative de résistance</em></p>
 </div>
 Pour calculer la déformation, nous effectuons le calcul ci-dessous pour tous nos rayons de courbures afin de trouver la déformation correspondante.
