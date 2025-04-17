@@ -85,7 +85,7 @@ De plus, les chercheurs ont aussi prouvé que les crayons pouvaient se comporter
 Cependant, l'équipe conclut que l'observation de ces phénomènes n'est pas possible pour des crayons composés de plus d'argile que le crayon HB. Selon eux, le réseau de nanopaticules du crayon HB se situe juste au dessus du <strong>seuil de percolation</strong>. Le seuil de percolation c'est le seuil à partir duquel le matériau devient conducteur car les électrons peuvent traverser. Néanmoins, nous allons montré que, grâce à l'utilisation d'un <strong>amplificateur transimpédance</strong>, il est possible de mesurer des résistances pour des crayons plus tendres que le HB. Par conséquent, la structure de ces crayons permet de passage des électrons et ne se situe pas en dessous du seuil de percolation.   
 </div>
 
-# II - Simulation sous LTSpice
+# II - Simulation sous LTSpice et formules utiles
 
 <div align="justify"> D'après l'étude menée par les chercheurs, le capteur graphite a une résistance qui peut varier d'une centaine de kohms à des Mohms. Les résistances très élevées sont délicates à mesurer. En effet, une méthode classique consiste à utiliser un ohmmètre mais pour mesurer des résistances de cet ordre de grandeur les options sont chères. De plus, nous utilisons une carte Arduino dont l'impédance maximale de la source ne peut pas dépasser 10 kohms. Il n'est donc pas possible de brancher directement notre capteur graphite sur la carte. De ce fait, nous allons amplifier le signal et diminuer son impédance à l'aide d'un amplificateur transimpédance. Nous utilisons pour cela un amplificateur opérationnel LTC1050 car il est suffisamment sensible pour amplifier correctement le signal. Il s'agit également d'un amplificateur très précis qui possède un offset voltage de 5 uV, négligeable par rapport à la tension mesurée sur l'entrée non-inverseuse. Si l'on considère que le courant délivré par le capteur graphite est de 100 nA et que la résistance de R1 vaut 100komhs, alors la tension Vep = I x R1 = 10 mV >> 5 uV.</div>
 
@@ -105,17 +105,17 @@ De plus, il va falloir filtrer le bruit. Pour ce faire, nous mettons en place 3 
 </div>
 
 ## B) Formules
-À partir de ce montage, nous pouvons établir la formule nécessaire pour relier la tension en sortie de l'amplificateur transimpédance Vadc à la résistance du capteur graphite.
+À partir de ce montage, nous pouvons établir la formule nécessaire pour relier la tension en sortie de l'amplificateur transimpédance à la résistance du capteur graphite.
 
 <div align="center">
   <img src="II - Simulation/equation_V2.png"/>
   <p><em>Figure : Formule qui lie la résistance du capteur graphite à la tension Vadc mesurée en sortie </em></p>
 </div>
 
-De la même manière, pour le capteur commercial, nous faisons un pont diviseur de tension avec une résistance de 33k. La formule qui relie la tension de sortie V_flex à la résistance du capteur commercial est la suivante: 
+De la même manière, pour le capteur commercial, nous faisons un pont diviseur de tension avec une résistance de 33k. La formule qui relie la tension de sortie à la résistance du capteur commercial est la suivante: 
 
 <div align="center">
-  <img src="II - Simulation/equation_V2.png"/>
+  <img src="II - Simulation/Eq_flex.png"/>
   <p><em>Figure : Formule qui lie la résistance du capteur commercial à la tension V_flex mesurée en sortie </em></p>
 </div>
 
