@@ -305,7 +305,10 @@ Nous avons également réalisé nos tests sur le capteur commercial pour pouvoir
 
 Voici un tableau récapitulatif de nos relevés de mesures.
 
-
+<div align="center">
+  <img src="Résultats/tableau_sensibilites.png"/>
+  <p><em>Figure : </em></p>
+</div>
 
 
 ## B) Comparaison avec un capteur commercial: qui sera le meilleur ?
