@@ -99,15 +99,12 @@ Cependant, l'équipe conclut que l'observation de ces phénomènes n'est pas pos
 De plus, il va falloir filtrer le bruit. Pour ce faire, nous mettons en place 3 filtres passe-bas:
  <ul>
   <li>un pour filtrer le bruit du capteur en jaune</li>
-  <li>Un pour filtrer le 50Hz en vert </li>
-  <li>Un pour filtrer les variations plus rapides que 7kHz </li>
+  <li>un pour filtrer le 50Hz en vert </li>
+  <li>un pour filtrer les variations plus rapides que 7kHz en rouge </li>
 </ul>
-
-
- 
 </div>
 
-## B) Résultats de la simulation
+## B) Formules
 
 # III - Réalisation du PCB avec KiCAD
 
