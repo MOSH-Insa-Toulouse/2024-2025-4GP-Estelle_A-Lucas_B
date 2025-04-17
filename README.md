@@ -144,13 +144,21 @@ De la même manière, pour le capteur commercial, nous faisons un pont diviseur 
 <p align="center">Vue 3D [INSÉRER IMG] </p>
 
 # IV - Le banc de test automatisé
-[INSÉRER IMAGE]
+
+<div align="center">
+  <img src="IV - Banc de test/Rendu_global.png"/>
+  <p><em>Figure : Rendu du banc de test final</em></p>
+</div>
 
 <div align="justify"> Afin d'optimiser notre relevé de mesures, nous avons mis au point un banc de test qui courbe automatiquement le capteur de déformation. De cette manière, nous minimisons les risques de dégradation du capteur graphite lors des relevés de mesure car nous ne touchons pas le capteur dès lors qu'il est positionné sur le banc de test. Le banc de test a été réalisé sous Fusions360 puis imprimé en 3D. Ce dernier permet des relevés entièrement personnalisables par l'utilisateur grâce au code Arduino développé. Avec ce banc de test, il est possible de réaliser des mesures sur le capteur graphite et le capteur commercial. Les mesures en tension se sont révélées être les plus faciles à mettre en place tandis que les mesures en compression sont plus délicates.</div>
 
 ## A) La glissière pilotée par le servo moteur
- [INSÉRER IMAGE]
- 
+
+<div align="center">
+  <img src="IV - Banc de test/Rendu_engrenage.png"/>
+  <p><em>Figure : Rendu de la glissière écrantée avec encoche fendue ainsi que de l'engrenage fixé au servo</em></p>
+</div>
+
 <div align="justify">  Pour courber le capteur de déformation, nous avons utilisé un système de glissière qui se déplace sous l'action du servo moteur. En effet, nous avons conçu un engrenage qui se fixe sur le servo moteur et dont la rotation entraîne une glissière écrantée. Le bout de cette glissière est faite en forme d'encoche pour maintenir le capteur. Pour éviter que le capteur ne sorte de l'encoche au cours des mesures, nous avons également imprimé des petites cales qui assurent que le capteur reste bien  positionné. Enfin, nous avons imprimé deux glissières différentes, une pour le capteur commercial et une pour le capteur graphite car le capteur commercial était beaucoup plus long que le capteur graphite. La glissière du capteur commercial possède une petite fente au centre de l'encoche pour le maintenir correctement en place et permettre une déformation qui épouse mieux les rayons de courbure.</div>
 
 ## B) Les rayons de courbure interchangeables
