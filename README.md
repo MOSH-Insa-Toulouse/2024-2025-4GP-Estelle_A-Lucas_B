@@ -17,7 +17,7 @@ Projet capteur 2024 - 2025 | Estelle AUBRY et Lucas BOURDARIE | 4ème année, 59
 
 [VI - L'application Android avec Mit App Inventor](https://github.com/MOSH-Insa-Toulouse/2024-2025-4GP-Haistelle-Lucbourd/tree/main?tab=readme-ov-file#vi---lapplication-android-avec-mit-app-inventor)
 
-[Conclusion](https://github.com/MOSH-Insa-Toulouse/2024-2025-4GP-Haistelle-Lucbourd/tree/main?tab=readme-ov-file#conclusion)
+[Conclusion](https://github.com/MOSH-Insa-Toulouse/2024-2025-4GP-Haistelle-Lucbourd/tree/main?tab=readme-ov-file#résultats)
 
 # Présentation du projet 
  
@@ -247,9 +247,10 @@ Pour calculer la déformation, nous effectuons le calcul ci-dessous pour tous no
   <img src="Résultats/Eq_epsilon.png"/>
   <p><em>Figure : Formule pour calculer la déformation</em></p>
 </div>
+Le coefficient de proportionalité qui lie la variation relative de résistance et la déformation correspond à la <strong>sensibilité</strong> du capteur. 
 </div>
 
-<div align="justify">  Pour réaliser tous nos tests nous avons choisi une vitesse de 52% pour le servo moteur. Les crayons testés sont le 6B, 5B, 4B, 3B, B, HB, F et H pour des mesures en tension. Les tests ont été effectués sur chaque rayon de courbure disponible. Pour les mesures en compression, les tests ont été réalisés sur les crayons 6B, 3B et HB pour des rayons de courbure allant jusqu'à [...]. Pour <strong> chaque point </strong>, nous avons réalisé 5 mesures de résistance pour un type de crayon et un rayon de courbure donné et pris la moyenne de ces 5 mesures comme résultat final. Au total, pour les mesures en tension cela nous fait 8 (crayons) x 8 (supports) x 5 (mesures pour 1 type de crayon et un rayon de courbure donné) = <strong>320 mesures</strong>. Pour les mesures en compression, nous avons 3 (crayons) x 6 (supports) x 5 (mesures) = <strong>90 mesures</strong>. Nous n'avons pas pu réaliser les mesures en compression pour tous les rayons de courbure disponibles car le capteur se déteriorait au fur et à mesure des tests.  Ainsi, pour ce projet nous avons effectué plus de 400 mesures pour caractériser notre capteur. 
+<div align="justify">  Pour réaliser tous nos tests nous avons choisi une vitesse de 52% pour le servo moteur. Les crayons testés sont le 6B, 5B, 4B, 3B, B, HB, F et H pour des mesures en tension. Les tests ont été effectués sur chaque rayon de courbure disponible. Pour les mesures en compression, les tests ont été réalisés sur les crayons 6B, 3B et HB pour des rayons de courbure allant jusqu'à [...]. Pour <strong> chaque point </strong>, nous avons réalisé 5 mesures de résistance pour un type de crayon et un rayon de courbure donné et pris la moyenne de ces 5 mesures comme résultat final. Au total, pour les mesures en tension cela nous fait 8 (crayons) x 8 (supports) x 5 (mesures pour 1 type de crayon et un rayon de courbure donné) = <strong>320 mesures</strong>. Pour les mesures en compression, nous avons 3 (crayons) x 6 (supports) x 5 (mesures) = <strong>90 mesures</strong>. Nous n'avons pas pu réaliser les mesures en compression pour tous les rayons de courbure disponibles car le capteur se déteriorait au fur et à mesure des tests.  Ainsi, pour ce projet nous avons effectué plus de <strong>400</strong> mesures pour caractériser notre capteur. 
 </div>
 
 ## A) Les mesures obtenues
@@ -268,10 +269,7 @@ Voici le graphique qui regroupe nos résultats pour une déformation en compress
   <p><em>Figure : </em></p>
 </div>
 
-<div align="center">
-  <img src="Résultats/Tens_flex.png"/>
-  <p><em>Figure : tension du capteur commercial </em></p>
-</div>
+Voici quelques courbes individuelles qui permettent d'apprécier l'évolution linéaire de la variation relative de résistance en fonction de la déformation.
 
 <div align="center">
   <img src="Résultats/Tens_3B.png"/>
@@ -296,6 +294,13 @@ Voici le graphique qui regroupe nos résultats pour une déformation en compress
 <div align="center">
   <img src="Résultats/Comp_HB2.png"/>
   <p><em>Figure : compression du crayon HB </em></p>
+</div>
+
+Nous avons également réalisé nos tests sur le capteur commercial pour pouvoir effectuer une comparaison.
+
+<div align="center">
+  <img src="Résultats/Tens_flex.png"/>
+  <p><em>Figure : tension du capteur commercial </em></p>
 </div>
 
 
