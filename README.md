@@ -237,14 +237,14 @@ Le servo moteur effectuera 5 aller-retours jusqu'à la position 150 du servo à 
 # Résultats
 
 <div align="justify"> 
-Pour réaliser nos mesures, nous avons tracé l'évolution de la variation relative de résistance en fonction de la déformation. Pour la variation relative de résistance, nous appliquons la formule suivante:
+Pour réaliser nos mesures, nous avons tracé l'évolution de la variation relative de résistance en fonction de la déformation. Pour la variation relative de résistance, nous appliquons la formule ci-dessous. Rplat correspond à la résistance du capteur graphite sans déformation appliquée et Rcourbé à la résistance mesurée quand le capteur est déformé.
 <div align="center">
   <img src="Conclusion/Eq_deltaR_sur_R.png"/>
   <p><em>Figure : Formule de la variation relative de résistance</em></p>
 </div>
-Pour calculer la déformation, nous effectuons le calcul ci-dessous pour tous nos rayons de courbures afin de trouver la déformation correspondante.
+Pour calculer la déformation, nous effectuons le calcul ci-dessous pour tous nos rayons de courbures afin de trouver la déformation correspondante. e correspond à l'épaisseur de la feuille de papier utilisée.
  <div align="center">
-  <img src=""/>
+  <img src="Conclusion/Eq_epsilon.png"/>
   <p><em>Figure : Formule pour calculer la déformation</em></p>
 </div>
 </div>
@@ -254,11 +254,18 @@ Pour calculer la déformation, nous effectuons le calcul ci-dessous pour tous no
 
 ## A) Les mesures obtenues
 
-<div align="justify"> Voici les résultats de toutes nos mesures en tension (figure) et en compression (figure). Les courbes obtenues sont cohérentes avec les résultats de Lin, CW., Zhao, Z., Kim, J. et al.En effet, les crayons plus durs comme le 6B possèdent une sensibilité plus faible que les crayons plus doux comme le HB par exemple.   </div>
+<div align="justify"> Voici les résultats de toutes nos mesures en tension (figure) et en compression (figure). Les courbes obtenues sont cohérentes avec les résultats de Lin, CW., Zhao, Z., Kim, J. et al. En effet, les crayons plus durs comme le 6B possèdent une sensibilité plus faible que les crayons plus doux comme le HB par exemple. Voici un graphique qui regroupe tous nos résultats pour une déformation en tension.   </div>
 
 <div align="center">
   <img src="Conclusion/Tot_tens.png"/>
-  <p><em>Figure : Écran de démarrage de l'application </em></p>
+  <p><em>Figure : </em></p>
+</div>
+
+Voici le graphique qui regroupe nos résultats pour une déformation en compression.
+
+<div align="center">
+  <img src="Conclusion/Tot_comp.png"/>
+  <p><em>Figure : </em></p>
 </div>
 
 <div align="center">
