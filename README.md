@@ -241,6 +241,37 @@ Le servo moteur effectuera 5 aller-retours jusqu'à la position 150 du servo à 
 
 ## A) Les mesures obtenues
 
+<div align="center">
+  <img src=""/>
+  <p><em>Figure : Écran de démarrage de l'application </em></p>
+</div>
+
+<div align="center">
+  <img src=""/>
+  <p><em>Figure : Écran de démarrage de l'application </em></p>
+</div>
+
+<div align="center">
+  <img src=""/>
+  <p><em>Figure : Écran de démarrage de l'application </em></p>
+</div>
+
+<div align="center">
+  <img src=""/>
+  <p><em>Figure : Écran de démarrage de l'application </em></p>
+</div>
+
+<div align="center">
+  <img src=""/>
+  <p><em>Figure : Écran de démarrage de l'application </em></p>
+</div>
+
+<div align="center">
+  <img src=""/>
+  <p><em>Figure : Écran de démarrage de l'application </em></p>
+</div>
+
+
 [INSÉRER COURBES + TABLEAU AVEC LES SENSIBILITÉS]
 
 ## B) Comparaison avec un capteur commercial: qui sera le meilleur ?
