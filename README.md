@@ -182,7 +182,7 @@ Ce menu souhaite la bienvenue à l'utilisateur. Il ne possède pas le fonctional
  [INSÉRER IMAGE]
 <div align="justify"> Dans le menu "Vitesse", l'utilisateur peut régler la vitesse à laquelle il souhaite effectuer les mesures, c'est-à-dire, la vitesse à laquelle la glissère reliée au servo moteur va se déplacer. L'écran affiche un pourcentage qui correspond à la vitesse du servo moteur. 0% correspond à la <strong>vitesse minimale</strong> et 100% la <strong>vitesse maximale</strong>. Pour augmenter la vitesse, il est nécessaire de tourner l'encodeur rotatoire dans le sens <strong>anti-horaire</strong> car il s'agit en réalité de <strong>diminuer</strong> le délai entre chaque incrément du servo moteur. La vitesse maximale correspond à un délai de <strong>5ms</strong> tandis que la vitesse minimale correspond à un délai de <strong>40ms</strong>. De plus, lorsque la vitesse change (= l'encoder change de position), le servo moteur effectue un aller-retour au cours duquel il est possible faire varier la vitesse du servo à l'aide de l'encoder jusqu'à obtenir la vitesse désirée. L'affichage en % de la vitesse s'effectue <strong> à la fin </strong>  de l'aller-retour. Il n'y a donc pas d'affichage en direct de la vitesse mais seulement après que le servo moteur ait fait un aller-retour. D'après la figure ci-dessous, comme l'encoder est utilisé pour faire varier le délai, la variable encoder_pos peut prendre des valeurs comprises entre 5 et 40 uniquement. </div>
 <div align="center">
-  <img src="V - Code arduino/Vitesse.png"/>
+  <img src="V - Code arduino/Vitesse_V2.png"/>
   <p><em>Figure : Algorigramme qui présente le déroulé de la fonction "Vitesse"</em></p>
 </div>
 
