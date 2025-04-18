@@ -144,12 +144,12 @@ De la même manière, pour le capteur commercial, nous faisons un pont diviseur 
 </div>
 
 <div align="center">
-  <img src="III - KiCAD/PCB.png"/>
+  <img src="III - KiCAD/PCB.PNG"/>
   <p><em>Figure : routage des composant </em></p>
 </div>
 
 <div align="center">
-  <img src="III - KiCAD/3D.png"/>
+  <img src="III - KiCAD/3D.PNG"/>
   <p><em>Figure : vue 3D avec les composants montés </em></p>
 </div>
 <p align="center">Vue depuis l'éditeur de Schématique [INSÉRER IMG] </p>
@@ -175,7 +175,10 @@ De la même manière, pour le capteur commercial, nous faisons un pont diviseur 
 <div align="justify">  Pour courber le capteur de déformation, nous avons utilisé un système de glissière qui se déplace sous l'action du servo moteur. En effet, nous avons conçu un engrenage qui se fixe sur le servo moteur et dont la rotation entraîne une glissière écrantée. Le bout de cette glissière est faite en forme d'encoche pour maintenir le capteur. Pour éviter que le capteur ne sorte de l'encoche au cours des mesures, nous avons également imprimé des petites cales qui assurent que le capteur reste bien  positionné. Enfin, nous avons imprimé deux glissières différentes, une pour le capteur commercial et une pour le capteur graphite car le capteur commercial était beaucoup plus long que le capteur graphite. La glissière du capteur commercial possède une petite fente au centre de l'encoche pour le maintenir correctement en place et permettre une déformation qui épouse mieux les rayons de courbure.</div>
 
 ## B) Les rayons de courbure interchangeables
-[INSÉRER IMAGE]
+<div align="center">
+  <img src="IV - Banc de test/Rayons_courbure.JPG"/>
+  <p><em>Figure : Gamme de rayons de courbure imprimés</em></p>
+</div>
 
 <div align="justify"> Pour tester les capteurs, nous avons imprimé huit supports en 3D avec différents rayons de courbure. Ces supports s'imbriquent sur le banc de test comme nous pouvons le voir sur la photo [INSÉRER n°figure]. Les numéros qui figurent sur les supports correspondent à l'angle entre le bord jaune et le bord rouge. 
 </div>
@@ -239,11 +242,10 @@ Le servo moteur effectuera 5 aller-retours jusqu'à la position 150 du servo à 
 [insérer image explicative]
 
 ## A) L'écran de démarrage
-[INSÉRER IMAGE]
 <div align="justify"> L'écran de démarrage comporte un seul bouton "Démarrer" sur lequel il suffit de cliquer pour lancer l'application.</div>
 
 <div align="center">
-  <img src="VI - Application Android/lutelle-s_app_screen1.png"/>
+  <img src="VI - Application Android/Acceuil_app.jpg"/>
   <p><em>Figure : Écran de démarrage de l'application </em></p>
 </div>
 
@@ -251,7 +253,7 @@ Le servo moteur effectuera 5 aller-retours jusqu'à la position 150 du servo à 
 
 <div align="justify"> Sur le deuxième écran, l'utilisateur doit tout d'abord connecter son téléphone au module Bluetooth pour recevoir les données. Lorsque la connexion est établie, le bouton "Bluetooth connexion" s'affiche en vert. Ensuite, un switch permet de définir quel capteur est utilisé. Si l'on utilise le capteur graphite, il faut renseigner la valeur du potentiomètre numérique dans la case rose pour afficher la bonne valeur de résistance dans la case bleue claire. Un graphique en dessous permet d'afficher en direct les bytes reçus par le module Bluetooth. Les bytes reçus sont également affichés dans la case jaune en dessous du graphique. </div>
 <div align="center">
-  <img src="VI - Application Android/lutelle-s_app_screen2.png"/>
+  <img src="VI - Application Android/Mesures_app.jpg"/>
   <p><em>Figure : Écran de démarrage de l'application </em></p>
 </div>
 
