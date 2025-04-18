@@ -140,21 +140,18 @@ De la même manière, pour le capteur commercial, nous faisons un pont diviseur 
 **N.B**: Le servo moteur n'apparaît pas ici car il sera relié à la carte Arduino par le biais d'un header.
 <div align="center">
   <img src="III - KiCAD/Schematic_complet.png"/>
-  <p><em>Figure : schématique de notre PCB </em></p>
+  <p><em>Figure : Vue depuis l'éditeur de Schématique </em></p>
 </div>
 
 <div align="center">
   <img src="III - KiCAD/PCB.PNG"/>
-  <p><em>Figure : routage des composant </em></p>
+  <p><em>Figure : Vue depuis l'éditeur de PCB </em></p>
 </div>
 
 <div align="center">
   <img src="III - KiCAD/3D.PNG"/>
-  <p><em>Figure : vue 3D avec les composants montés </em></p>
+  <p><em>Figure : Vue 3D </em></p>
 </div>
-<p align="center">Vue depuis l'éditeur de Schématique [INSÉRER IMG] </p>
-<p align="center">Vue depuis l'éditeur de PCB [INSÉRER IMG] </p>
-<p align="center">Vue 3D [INSÉRER IMG] </p>
 
 # IV - Le banc de test automatisé
 
