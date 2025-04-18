@@ -244,8 +244,9 @@ Ce menu souhaite la bienvenue à l'utilisateur. Il ne possède pas le fonctional
 
 ### 7 - Le menu "DÉMARRAGE"
 <div style='display:flex' align="center">
-   <img src="V - Code arduino/Demarrage.jpg" width=35% height=35%>
-   <img src="V - Code arduino/Demarrage_in.jpg" width=35% height=35%>
+   <img src="V - Code arduino/Demarrage.jpg" width=30% height=30%>
+   <img src="V - Code arduino/Demarrage_in.jpg" width=30% height=30%>
+   <img src="V - Code arduino/Live_in.jpg" width=30% height=30%>
  <p><em>Figure : menu de démarrage de la mesure </em></p>
 </div>
 Le menu démarrage permet de lancer l'acquisition de mesure. Il prend en compte tous les paramètres précedemment définis par l'utilisateur. Par exemple pour des paramètres tels que:
