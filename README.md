@@ -362,7 +362,7 @@ Voici un tableau récapitulatif de nos relevés de mesures.
 
 <div align="center">
   <img src="Résultats/tableau_sensibilites.png"/>
-  <p><em>Figure : </em></p>
+  <p><em>Figure : Sensibilité des capteurs testés </em></p>
 </div>
 
 
