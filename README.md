@@ -48,7 +48,7 @@ Pour le **montage**, voici tout le matériel requis:
 - Un capteur de déformation commercial (FlexSensor) pour effectuer une comparaison
 - Des crayons à papiers différents pour les tests
 - Un servo moteur
-- Des header de différentes tailles pour fixer les composants sur le PCB
+- Des header de différentes tailles pour fixer les composants sur la PCB
 - Une résistance de 33k
 
 Pour réaliser **l'amplificateur transimpédance**, la liste de matériel est la suivante:
@@ -82,12 +82,12 @@ De plus, les chercheurs ont aussi prouvé que les crayons pouvaient se comporter
 </div>
 
 
-Cependant, l'équipe conclut que l'observation de ces phénomènes n'est pas possible pour des crayons composés de plus d'argile que le crayon HB. Selon eux, le réseau de nanoparticules du crayon HB se situe juste au dessus du <strong>seuil de percolation</strong>. Le seuil de percolation c'est le seuil à partir duquel le matériau devient conducteur car les électrons peuvent traverser. Néanmoins, nous allons montrer que, grâce à l'utilisation d'un <strong>amplificateur transimpédance</strong>, il est possible de mesurer des résistances pour des crayons plus légers que le HB. Par conséquent, la structure de ces crayons permet de passage des électrons et ne se situe pas en dessous du seuil de percolation.   
+Cependant, l'équipe conclut que l'observation de ces phénomènes n'est pas possible pour des crayons composés de plus d'argile que le crayon HB. Selon eux, le réseau de nanoparticules du crayon HB se situe juste au dessus du <strong>seuil de percolation</strong>. Le seuil de percolation est le seuil à partir duquel le matériau devient conducteur car les électrons peuvent traverser. Néanmoins, nous allons montrer que, grâce à l'utilisation d'un <strong>amplificateur transimpédance</strong>, il est possible de mesurer des résistances pour des crayons plus légers que le HB. Par conséquent, la structure de ces crayons permet le passage des électrons et ne se situe pas en dessous du seuil de percolation.   
 </div>
 
 # II - Simulation sous LTSpice et formules utiles
 
-<div align="justify"> D'après l'étude menée par les chercheurs, le capteur graphite a une résistance qui peut varier d'une centaine de kohms à des Mohms. Les résistances très élevées sont délicates à mesurer. En effet, une méthode classique consiste à utiliser un ohmmètre mais pour mesurer des résistances de cet ordre de grandeur les options sont chères. De plus, nous utilisons une carte Arduino dont l'impédance maximale de la source ne peut pas dépasser 10 kohms. Il n'est donc pas possible de brancher directement notre capteur graphite sur la carte. De ce fait, nous allons amplifier le signal et diminuer son impédance à l'aide d'un amplificateur transimpédance. Nous utilisons pour cela un amplificateur opérationnel LTC1050 car il est suffisamment sensible pour amplifier correctement le signal. Il s'agit également d'un amplificateur très précis qui possède un offset voltage de 5 uV, négligeable par rapport à la tension mesurée sur l'entrée non-inverseuse. Si l'on considère que le courant délivré par le capteur graphite est de 100 nA et que la résistance de R1 vaut 100komhs, alors la tension Vep = I x R1 = 10 mV >> 5 uV.</div>
+<div align="justify"> D'après l'étude menée par les chercheurs, le capteur graphite a une résistance qui peut varier d'une centaine de kohms à quelques Mohms. Les résistances très élevées sont délicates à mesurer. En effet, une méthode classique consiste à utiliser un ohmmètre mais pour mesurer des résistances de cet ordre de grandeur les options sont chères. De plus, nous utilisons une carte Arduino dont l'impédance maximale de la source ne peut pas dépasser 10 kohms. Il n'est donc pas possible de brancher directement notre capteur graphite sur la carte. De ce fait, nous allons amplifier le signal et diminuer son impédance à l'aide d'un amplificateur transimpédance. Nous utilisons pour cela un amplificateur opérationnel LTC1050 car il est suffisamment sensible pour amplifier correctement le signal. Il s'agit également d'un amplificateur très précis, qui possède un offset voltage de 5 uV, négligeable par rapport à la tension mesurée sur l'entrée non-inverseuse. Si l'on considère que le courant délivré par le capteur graphite est de 100 nA et que la résistance de R1 vaut 100komhs, alors la tension Vep = I x R1 = 10 mV >> 5 uV.</div>
 
 ## A) Montage avec l'amplificateur transimpédance
 
@@ -99,7 +99,7 @@ Cependant, l'équipe conclut que l'observation de ces phénomènes n'est pas pos
 De plus, il va falloir filtrer le bruit. Pour ce faire, nous mettons en place 3 filtres passe-bas:
  <ul>
   <li>un pour filtrer le bruit du capteur en jaune.</li>
-  <li>un pour filtrer le 50Hz en vert.</li>
+  <li>un pour filtrer le bruit à 50Hz en vert.</li>
   <li>un pour filtrer les variations plus rapides que 7kHz en rouge. D'après le critère de Shannon, fech > 2*fsignal. Or, pour une carte Arduino, la fréquence d'échantillonage vaut 15 kHz donc fsignal < 7kHz.  </li>
 </ul>
 </div>
@@ -121,7 +121,7 @@ De la même manière, pour le capteur commercial, nous faisons un pont diviseur 
 
 # III - Réalisation du PCB avec KiCAD
 
-<div align="justify"> Ensuite, nous avons designé un PCB simple face à l'aide du logiciel KiCAD. Il est à noter que l'entrée du capteur graphite est reliée à l'amplificateur transimpédance. Afin de permettre un meilleur contrôle de l'amplification du signal, la résistance R2 de la figure ... a été remplacée par un potentiomètre numérique. Le conditionneur utilisé pour le capteur commercial est un pont diviseur de tension avec une résistance de 33k. De plus, nous avons ajouté un condensateur pour faire du débouncing sur l'encoder rotatif. Nous avons suivi ces étapes:</div>
+<div align="justify"> Ensuite, nous avons dessiné un PCB simple face à l'aide du logiciel KiCAD. Il est à noter que l'entrée du capteur graphite est reliée à l'amplificateur transimpédance. Afin de permettre un meilleur contrôle de l'amplification du signal, la résistance R2 de la figure [NUMERO FIGURE...] a été remplacée par un potentiomètre numérique. Le conditionneur utilisé pour le capteur commercial est un pont diviseur de tension avec une résistance de 33k. De plus, nous avons ajouté un condensateur pour faire du débouncing sur l'encoder rotatif. Nous avons suivi ces étapes:</div>
 
 **1)** **Dessiner** les composants tels que l'OLED, l'encoder rotatif, le module Bluetooth, le capteur commercial et le capteur graphite
 
@@ -160,7 +160,7 @@ De la même manière, pour le capteur commercial, nous faisons un pont diviseur 
   <p><em>Figure : Rendu du banc de test final</em></p>
 </div>
 
-<div align="justify"> Afin d'optimiser notre relevé de mesures, nous avons mis au point un banc de test qui courbe automatiquement le capteur de déformation. De cette manière, nous minimisons les risques de dégradation du capteur graphite lors des relevés de mesure car nous ne touchons pas le capteur dès lors qu'il est positionné sur le banc de test. Le banc de test a été réalisé sous Fusions360 puis imprimé en 3D. Ce dernier permet des relevés entièrement personnalisables par l'utilisateur grâce au code Arduino développé. Avec ce banc de test, il est possible de réaliser des mesures sur le capteur graphite et le capteur commercial. Les mesures en tension se sont révélées être les plus faciles à mettre en place que les mesures en compression qui sont plus délicates.</div>
+<div align="justify"> Afin d'optimiser notre relevé de mesures, nous avons mis au point un banc de test qui courbe automatiquement le capteur de déformation. De cette manière, nous minimisons les risques de dégradation du capteur graphite lors des relevés de mesure car nous ne touchons pas le capteur dès lors qu'il est positionné sur le banc de test. Le banc de test a été réalisé sous Fusion360 puis imprimé en 3D. Ce dernier permet des relevés entièrement personnalisables par l'utilisateur grâce au code Arduino développé. Avec ce banc de test, il est possible de réaliser des mesures sur le capteur graphite et le capteur commercial. Les mesures en tension se sont révélées être plus faciles à mettre en place que les mesures en compression, qui sont plus délicates.</div>
 
 ## A) La glissière pilotée par le servo moteur
 
@@ -169,7 +169,7 @@ De la même manière, pour le capteur commercial, nous faisons un pont diviseur 
   <p><em>Figure : Rendu de la glissière écrantée avec encoche fendue ainsi que de l'engrenage fixé au servo</em></p>
 </div>
 
-<div align="justify">  Pour courber le capteur de déformation, nous avons utilisé un système de glissière qui se déplace sous l'action du servo moteur. En effet, nous avons conçu un engrenage qui se fixe sur le servo moteur et dont la rotation entraîne une glissière écrantée. Le bout de cette glissière est fait en forme d'encoche pour maintenir le capteur. Pour éviter que le capteur ne sorte de l'encoche au cours des mesures, nous avons également imprimé des petites cales qui assurent que le capteur reste bien  positionné. Enfin, nous avons imprimé deux glissières différentes, une pour le capteur commercial et une pour le capteur graphite car le capteur commercial était beaucoup plus long que le capteur graphite. La glissière du capteur commercial possède une petite fente en bas de l'encoche (voir figure ...) pour le maintenir correctement et permettre une déformation qui épouse mieux les rayons de courbure.</div>
+<div align="justify">  Pour courber le capteur de déformation, nous avons utilisé un système de glissière qui se déplace sous l'action du servo moteur. En effet, nous avons conçu un engrenage qui se fixe sur le servo moteur et dont la rotation entraîne une glissière crantée. Le bout de cette glissière est fait en forme d'encoche pour maintenir le capteur. Pour éviter que le capteur sorte de l'encoche au cours des mesures, nous avons également imprimé des petites cales qui assurent le bon positionnement du capteur. Enfin, nous avons imprimé deux glissières différentes, une pour le capteur commercial et une pour le capteur graphite car le capteur commercial est plus long que le capteur graphite. La glissière du capteur commercial possède une petite fente en bas de l'encoche (voir figure [NUMERO FIGURE...]) pour le maintenir correctement et permettre une déformation qui épouse au mieux les rayons de courbure.</div>
 
 ## B) Les rayons de courbure interchangeables
 <div align="center">
@@ -236,7 +236,7 @@ Ce menu souhaite la bienvenue à l'utilisateur. Il ne possède pas le fonctional
    <img src="V - Code arduino/Mode_in.jpg" width=35% height=35%>
  <p><em>Figure : menu de sélection du mode de mesure </em></p>
 </div>
-<div align="justify"> À l'intérieur de ce menu, l'utilisateur définit le nombre de mesures qu'il souhaite faire. En effet, nous avons pensé que comme les valeurs de résistances lues en direct peuvent parfois varier beaucoup, il pourrait être intéressant de permettre à l'utilisateur de faire une moyenne sur un nombre de mesures qu'il définit lui-même. De ce fait, lorsque la valeur choisie est "5" par exemple, le code effectuera 5 relevés de résistances pour un même rayon de courbure. Le servo fera donc un aller, une mesure puis un retour, le tout 5 fois. La valeur finale affichée correspondra à une moyenne de la résistance sur les 5 mesures. Le nombre de mesure réalisable est compris entre 1 et 20. </div>
+<div align="justify"> À l'intérieur de ce menu, l'utilisateur définit le nombre de mesures qu'il souhaite faire. En effet, nous avons pensé que comme les valeurs de résistances lues en direct peuvent parfois varier, il pourrait être intéressant de permettre à l'utilisateur de faire une moyenne sur un nombre de mesures qu'il définit. De ce fait, lorsque la valeur choisie est "5" par exemple, le code effectuera 5 relevés de résistances pour un même rayon de courbure. Le servo fera donc un aller, une mesure puis un retour, le tout 5 fois. La valeur finale affichée correspondra à une moyenne de la résistance sur les 5 mesures. Le nombre de mesure réalisable est compris entre 1 et 20. </div>
 
 
 ### 7 - Le menu "DÉMARRAGE"
@@ -282,7 +282,7 @@ Le servo moteur effectuera 5 aller-retours jusqu'à la position 150 du servo à 
 
 ## B) L'interface principale et ses fonctionalités
 
-<div align="justify"> Sur le deuxième écran, l'utilisateur doit tout d'abord connecter son téléphone au module Bluetooth pour recevoir les données. Lorsque la connexion est établie, le bouton "Bluetooth connexion" s'affiche en vert. Ensuite, un switch permet de définir quel capteur est utilisé. Si l'on utilise le capteur graphite, il faut renseigner la valeur du potentiomètre numérique dans la case rose pour afficher la bonne valeur de résistance dans la case bleue claire. Par défaut, la valeur de R2 vaut 875 ohms. Un graphique en dessous permet d'afficher en direct les bytes reçus par le module Bluetooth. Les bytes reçus sont également affichés dans la case jaune en dessous du graphique. </div>
+<div align="justify"> Sur le deuxième écran, l'utilisateur doit tout d'abord connecter son téléphone au module Bluetooth pour recevoir les données. Lorsque la connexion est établie, le bouton "Bluetooth connexion" s'affiche en vert. Ensuite, un switch permet de définir quel capteur est utilisé. Si l'on utilise le capteur graphite, il faut renseigner la valeur du potentiomètre numérique dans la case rose pour afficher la bonne valeur de résistance dans la case bleu clair. Par défaut, la valeur de R2 vaut 875 ohms. Un graphique en dessous permet d'afficher en direct les bytes reçus par le module Bluetooth. Les bytes reçus sont également affichés dans la case jaune en dessous du graphique. </div>
 <div align="center">
   <img src="VI - Application Android/Mesures_app.jpg"/ width=50% height=50%>
   <p><em>Figure : Écran de démarrage de l'application </em></p>
@@ -296,7 +296,7 @@ Pour réaliser nos mesures, nous avons tracé l'évolution de la variation relat
   <img src="VII - Résultats/Eq_deltaR_sur_R.png"/>
   <p><em>Figure : Formule de la variation relative de résistance</em></p>
 </div>
-Pour calculer la déformation, nous effectuons le calcul ci-dessous pour tous nos rayons de courbures afin de trouver la déformation correspondante. e correspond à l'épaisseur de la feuille de papier utilisée.
+Pour calculer la déformation, nous effectuons le calcul ci-dessous pour tous nos rayons de courbure afin de trouver la déformation correspondante. e correspond à l'épaisseur de la feuille de papier utilisée.
  <div align="center">
   <img src="VII - Résultats/Eq_epsilon.png"/>
   <p><em>Figure : Formule pour calculer la déformation</em></p>
@@ -304,12 +304,12 @@ Pour calculer la déformation, nous effectuons le calcul ci-dessous pour tous no
 Le coefficient de proportionalité qui lie la variation relative de résistance et la déformation correspond à la <strong>sensibilité</strong> du capteur. 
 </div>
 
-<div align="justify">  Pour réaliser tous nos tests nous avons choisi une vitesse de 52% pour le servo moteur. Les crayons testés sont le 6B, 5B, 4B, 3B, B, HB, F et H pour des mesures en tension. Les tests ont été effectués sur chaque rayon de courbure disponible. Pour les mesures en compression, les tests ont été réalisés sur les crayons 6B, 3B et HB pour des rayons de courbure allant jusqu'à [...]. Pour <strong> chaque point </strong>, nous avons réalisé 5 mesures de résistance pour un type de crayon et un rayon de courbure donné et pris la moyenne de ces 5 mesures comme résultat final. Au total, pour les mesures en tension cela nous fait 8 (crayons) x 8 (supports) x 5 (mesures pour 1 type de crayon et un rayon de courbure donné) = <strong>320 mesures</strong>. Pour les mesures en compression, nous avons 3 (crayons) x 6 (supports) x 5 (mesures) = <strong>90 mesures</strong>. Nous n'avons pas pu réaliser les mesures en compression pour tous les rayons de courbure disponibles car le capteur se déteriorait au fur et à mesure des tests.  Ainsi, pour ce projet nous avons effectué plus de <strong>400</strong> mesures pour caractériser notre capteur. 
+<div align="justify">  Pour réaliser tous nos tests nous avons choisi une vitesse de 52% pour le servo moteur. Les crayons testés sont le 6B, 5B, 4B, 3B, B, HB, F et H pour des mesures en tension. Les tests ont été effectués sur chaque rayon de courbure disponible. Pour les mesures en compression, les tests ont été réalisés sur les crayons 6B, 3B et HB pour des rayons de courbure allant jusqu'à 24 mm. Pour <strong> chaque point </strong>, nous avons réalisé 5 mesures de résistance pour un type de crayon et un rayon de courbure donné et pris la moyenne de ces 5 mesures comme résultat final. Au total, pour les mesures en tension cela nous fait 8 (crayons) x 8 (supports) x 5 (mesures pour 1 type de crayon et un rayon de courbure donné) = <strong>320 mesures</strong>. Pour les mesures en compression, nous avons 3 (crayons) x 6 (supports) x 5 (mesures) = <strong>90 mesures</strong>. Nous n'avons pas pu réaliser les mesures en compression pour tous les rayons de courbure disponibles car le capteur se déteriorait au fur et à mesure des tests.  Ainsi, pour ce projet nous avons effectué plus de <strong>400</strong> mesures pour caractériser nos capteurs. 
 </div>
 
 ## A) Les mesures obtenues
 
-<div align="justify"> Voici les résultats de toutes nos mesures en tension (figure) et en compression (figure). Les courbes obtenues sont cohérentes avec les résultats de Lin, CW., Zhao, Z., Kim, J. et al. En effet, les crayons plus durs comme le 6B possèdent une sensibilité plus faible que les crayons plus légers comme le HB par exemple. Voici un graphique qui regroupe tous nos résultats pour une déformation en tension.   </div>
+<div align="justify"> Voici les résultats de toutes nos mesures en tension (figure) et en compression (figure). Les courbes obtenues sont cohérentes avec les résultats de Lin, CW., Zhao, Z., Kim, J. et al. En effet, les crayons plus durs comme le 6B possèdent une sensibilité plus faible que les crayons plus légers comme le HB par exemple. Voici le graphique qui regroupe nos résultats pour une déformation en tension.   </div>
 
 <div align="center">
   <img src="VII - Résultats/Tot_tens.png"/>
@@ -323,7 +323,7 @@ Voici le graphique qui regroupe nos résultats pour une déformation en compress
   <p><em>Figure : </em></p>
 </div>
 
-Voici quelques courbes individuelles qui permettent d'apprécier l'évolution linéaire de la variation relative de résistance en fonction de la déformation.
+Voici quelques courbes individuelles qui permettent d'apprécier l'évolution linéaire de la variation relative de résistance en fonction de la déformation appliquée.
 
 <div align="center">
   <img src="VII - Résultats/Tens_3B.png"/>
