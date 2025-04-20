@@ -286,17 +286,17 @@ Le servo moteur effectuera 5 aller-retours jusqu'à la position 150 du servo à 
   <p><em>Figure : Écran de démarrage de l'application </em></p>
 </div>
 
-# Résultats
+# VII - Résultats
 
 <div align="justify"> 
 Pour réaliser nos mesures, nous avons tracé l'évolution de la variation relative de résistance en fonction de la déformation. Pour la variation relative de résistance, nous appliquons la formule ci-dessous. Rplat correspond à la résistance du capteur graphite sans déformation appliquée et Rcourbé à la résistance mesurée quand le capteur est déformé.
 <div align="center">
-  <img src="Résultats/Eq_deltaR_sur_R.png"/>
+  <img src="VII - Résultats/Eq_deltaR_sur_R.png"/>
   <p><em>Figure : Formule de la variation relative de résistance</em></p>
 </div>
 Pour calculer la déformation, nous effectuons le calcul ci-dessous pour tous nos rayons de courbures afin de trouver la déformation correspondante. e correspond à l'épaisseur de la feuille de papier utilisée.
  <div align="center">
-  <img src="Résultats/Eq_epsilon.png"/>
+  <img src="VII - Résultats/Eq_epsilon.png"/>
   <p><em>Figure : Formule pour calculer la déformation</em></p>
 </div>
 Le coefficient de proportionalité qui lie la variation relative de résistance et la déformation correspond à la <strong>sensibilité</strong> du capteur. 
@@ -310,55 +310,55 @@ Le coefficient de proportionalité qui lie la variation relative de résistance 
 <div align="justify"> Voici les résultats de toutes nos mesures en tension (figure) et en compression (figure). Les courbes obtenues sont cohérentes avec les résultats de Lin, CW., Zhao, Z., Kim, J. et al. En effet, les crayons plus durs comme le 6B possèdent une sensibilité plus faible que les crayons plus légers comme le HB par exemple. Voici un graphique qui regroupe tous nos résultats pour une déformation en tension.   </div>
 
 <div align="center">
-  <img src="Résultats/Tot_tens.png"/>
+  <img src="VII - Résultats/Tot_tens.png"/>
   <p><em>Figure : </em></p>
 </div>
 
 Voici le graphique qui regroupe nos résultats pour une déformation en compression.
 
 <div align="center">
-  <img src="Résultats/Tot_comp.png"/>
+  <img src="VII - Résultats/Tot_comp.png"/>
   <p><em>Figure : </em></p>
 </div>
 
 Voici quelques courbes individuelles qui permettent d'apprécier l'évolution linéaire de la variation relative de résistance en fonction de la déformation.
 
 <div align="center">
-  <img src="Résultats/Tens_3B.png"/>
+  <img src="VII - Résultats/Tens_3B.png"/>
   <p><em>Figure : tension du crayon 3B</em></p>
 </div>
 
 <div align="center">
-  <img src="Résultats/Tens_HB2.png"/>
+  <img src="VII - Résultats/Tens_HB2.png"/>
   <p><em>Figure : tension du crayon HB </em></p>
 </div>
 
 <div align="center">
-  <img src="Résultats/Tens_H.png"/>
+  <img src="VII - Résultats/Tens_H.png"/>
   <p><em>Figure : tension du crayon H </em></p>
 </div>
 
 <div align="center">
-  <img src="Résultats/Comp_3B.png"/>
+  <img src="VII - Résultats/Comp_3B.png"/>
   <p><em>Figure : compression du crayon 3B </em></p>
 </div>
 
 <div align="center">
-  <img src="Résultats/Comp_HB2.png"/>
+  <img src="VII - Résultats/Comp_HB2.png"/>
   <p><em>Figure : compression du crayon HB </em></p>
 </div>
 
 Nous avons également réalisé nos tests sur le capteur commercial pour pouvoir effectuer une comparaison.
 
 <div align="center">
-  <img src="Résultats/Tens_flex.png"/>
+  <img src="VII - Résultats/Tens_flex.png"/>
   <p><em>Figure : tension du capteur commercial </em></p>
 </div>
 
 Voici un tableau récapitulatif de nos relevés de mesures.
 
 <div align="center">
-  <img src="Résultats/tableau_sensibilites.png"/>
+  <img src="VII - Résultats/tableau_sensibilites.png"/>
   <p><em>Figure : Sensibilité des capteurs testés </em></p>
 </div>
 
