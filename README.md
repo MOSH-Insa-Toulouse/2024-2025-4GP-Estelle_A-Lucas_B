@@ -247,10 +247,12 @@ Ce menu souhaite la bienvenue à l'utilisateur. Il ne possède pas le fonctional
  <p><em>Figure : menu de démarrage de la mesure </em></p>
 </div>
 Le menu démarrage permet de lancer l'acquisition de mesure. Il prend en compte tous les paramètres précedemment définis par l'utilisateur. Par exemple pour des paramètres tels que:
-- **Vitesse**: 52%
-- **Borne**: 150
-- **Mode de mesure**: 5
+<ul>
+<li><strong>Vitesse</strong>: 52%</li>
+<li><strong>Borne</strong>: 150</li>
+<li><strong>Mode de mesure</strong>: 5</li>
 Le servo moteur effectuera 5 aller-retours jusqu'à la position 150 du servo à une vitesse de 52% de la vitessse maximale.
+</ul>
 <div align="center">
   <img src="V - Code arduino/Lancer_mesure(2).png"/ width=50% height=50%>
   <p><em>Figure : Algorigramme qui présente le déroulé de la fonction "Démarrage"</em></p>
