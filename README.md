@@ -17,7 +17,7 @@ Projet capteur 2024 - 2025 | Estelle AUBRY et Lucas BOURDARIE | 4ème année, 59
 
 [VI - L'application Android avec Mit App Inventor](https://github.com/MOSH-Insa-Toulouse/2024-2025-4GP-Haistelle-Lucbourd/tree/main?tab=readme-ov-file#vi---lapplication-android-avec-mit-app-inventor)
 
-[Résultats](https://github.com/MOSH-Insa-Toulouse/2024-2025-4GP-Haistelle-Lucbourd/tree/main?tab=readme-ov-file#résultats)
+[VII - Résultats](https://github.com/MOSH-Insa-Toulouse/2024-2025-4GP-Haistelle-Lucbourd/tree/main?tab=readme-ov-file#vii---résultats)
 
 # Présentation du projet 
  
