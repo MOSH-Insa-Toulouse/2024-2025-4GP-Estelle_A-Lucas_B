@@ -180,7 +180,7 @@ De la même manière, pour le capteur commercial, nous faisons un pont diviseur 
 
 ## B) Les rayons de courbure interchangeables
 <div style='display:flex' align="center">
-   <img src="IV - Banc de test/Rayons_courbures.JPG" width=35% height=35%>
+   <img src="IV - Banc de test/Rayons_courbures_V2.JPG" width=35% height=35%>
    <img src="IV - Banc de test/Rayon_75_V2.JPG" width=35% height=35%>
  <p><em>Figure 14 : Gamme de rayons de courbure imprimés en 3D</em></p>
 </div>
