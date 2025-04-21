@@ -174,7 +174,7 @@ De la même manière, pour le capteur commercial, nous faisons un pont diviseur 
 ## B) Les rayons de courbure interchangeables
 <div align="center">
   <img src="IV - Banc de test/Rayons_courbures.JPG"/ width=50% height=50%>
-  <p><em>Figure : Gamme de rayons de courbure imprimés</em></p>
+  <p><em>Figure : Gamme de rayons de courbure imprimés en 3D</em></p>
 </div>
 
 <div align="justify"> Pour tester les capteurs, nous avons imprimé huit supports en 3D avec différents rayons de courbure. Ces supports s'imbriquent sur le banc de test comme nous pouvons le voir sur la photo [INSÉRER n°figure]. Les numéros qui figurent sur les supports correspondent à l'angle entre le bord jaune et le bord rouge. 
