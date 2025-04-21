@@ -428,3 +428,8 @@ Voici un tableau récapitulatif de nos relevés de mesures.
 <div align="justify"> Pour conclure, le capteur graphite a une gamme d'utilisation plus large que le capteur commercial. Sa sensibilité peut égaler celle du capteur commercial. Il reste cependant très délicat et contraignant à manipuler. Nous pensons qu'une piste d'amélioration possible pour ce capteur serait d'envisager un moyen de l'encapsuler pour protéger le graphite. Avec une telle solution, il serait possible de l'industrialiser pour le rendre plus durable. Toutefois, la solution ne devra pas être trop coûteuse pour ne pas perdre l'intérêt de ce capteur qui se veut low-tech avant tout.
 </div>
 
+# Contacts
+
+Estelle AUBRY:<a> eaubry@insa-toulouse.fr</a>
+
+Lucas BOURDARIE:<a> bourdari@insa-toulouse.fr</a>
