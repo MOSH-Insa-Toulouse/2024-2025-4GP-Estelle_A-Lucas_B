@@ -412,20 +412,20 @@ Voici un tableau récapitulatif de nos relevés de mesures.
   </thead>
   <tbody>
     <tr>
-      <td>Sensibilité qui peut rivaliser avec celle du cpateur commercial selon le type de crayon utilisé</td>
+      <td>Sensibilité qui peut rivaliser avec celle du capteur commercial selon le type de crayon utilisé</td>
       <td>Manipulation délicate car le capteur se détériore au moindre contact</td>
     </tr>
     <tr>
       <td>Permet de réaliser des mesures en compression</td>
-      <td>Si le capteur est courbé trop de fois, les fibres du papiers se cassent ce qui nuit à la mesure</td>
+      <td>Si le capteur est courbé trop de fois les fibres du papiers se cassent ce qui nuit à la mesure</td>
     </tr>
    <tr>
   </tbody>
 </table>
 </div>
 
-En effet, le capteur commercial est précis, a une sensibilité élevée et est réutilisable un grand nombre de fois sans se détériorer. Or, c'est un capteur avec lequel une mesure en compression est impossible à réaliser car cela l'endommagerait. C'est sur ce point qu'un capteur en graphite va être meilleur qu'un capteur commercial. Il est possible de réaliser une mesure en compression tout en conservant une certaine précision et sans compromettre l'intégrité du capteur. Cepandant, un capteur graphite sera toujours plus délicat à utiliser qu'un capteur commercial. Il ne faut que le capteur entre en contact avec une quelconque surface au risque d'endommager la couche de graphite et il ne faut pas plier fortement le capteur au risque de casser les fibres du papier. Ce sont des contraintes importantes à prendre en compte si l'utilisation d'un tel capteur est envisagée. En revanche, il peut être imaginé d'encapsuler le capteur graphite pour le protéger et 'lutiliser plus facilement.
+ Ce sont des contraintes importantes à prendre en compte si l'utilisation d'un tel capteur est envisagée. En revanche, il peut être imaginé d'encapsuler le capteur graphite pour le protéger et 'lutiliser plus facilement.
 </div>
-<div align="justify">   Pour conclure, le capteur graphite a une gamme plus large d'utilisation du capteur commercial mais reste très délicat et contraignant à manipuler. L'améliorer en imaginant un moyen de protéger le graphite permettrait de l'utiliser plus facilement.
+<div align="justify"> Pour conclure, le capteur graphite a une gamme d'utilisation plus large que le capteur commercial. Sa sensibilité peut égaler celle du capteur commercial. Il reste cependant très délicat et contraignant à manipuler. Nous pensons qu'une piste d'amélioration possible pour ce capteur serait d'envisager un moyen de l'encapsuler pour protéger le graphite. Avec une telle solution, il serait possible d'industrialiser le capteur pour le rendre plus durable. Toutefois, la solution ne devra pas être trop coûteuse pour ne pas perdre l'intêret de ce capteur qui se veut low-tech avant tout.
 </div>
 
