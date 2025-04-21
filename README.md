@@ -27,7 +27,7 @@ Projet capteur 2024 - 2025 | Estelle AUBRY et Lucas BOURDARIE | 4ème année, 59
 
 <div style='display:flex' align="center">
    <img src="IV - Banc de test/Test_bench.JPG" width=35% height=35%>
-   <img src="IV - Banc de test/Servo_moteur_V2.JPG" width=35% height=35%>
+   <img src="IV - Banc de test/Servo_moteur_V2.JPG" width=34.7% height=34.7%>
  <p><em>Figure : Banc de test complet </em></p>
 </div>
 
