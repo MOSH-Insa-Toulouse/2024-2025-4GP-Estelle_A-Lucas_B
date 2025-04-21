@@ -179,9 +179,10 @@ De la même manière, pour le capteur commercial, nous faisons un pont diviseur 
 <div align="justify">  Pour courber le capteur de déformation, nous avons utilisé un système de glissière qui se déplace sous l'action du servo moteur. En effet, nous avons conçu un engrenage qui se fixe sur le servo moteur et dont la rotation entraîne une glissière crantée. Le bout de cette glissière est fait en forme d'encoche pour maintenir le capteur. Pour éviter que le capteur sorte de l'encoche au cours des mesures, nous avons également imprimé des petites cales qui assurent le bon positionnement du capteur. Enfin, nous avons imprimé deux glissières différentes, une pour le capteur commercial et une pour le capteur graphite car le capteur commercial est plus long que le capteur graphite. La glissière du capteur commercial possède une petite fente en bas de l'encoche (voir figure [NUMERO FIGURE...]) pour le maintenir correctement et permettre une déformation qui épouse au mieux les rayons de courbure.</div>
 
 ## B) Les rayons de courbure interchangeables
-<div align="center">
-  <img src="IV - Banc de test/Rayons_courbures.JPG"/ width=50% height=50%>
-  <p><em>Figure : Gamme de rayons de courbure imprimés en 3D</em></p>
+<div style='display:flex' align="center">
+   <img src="IV - Banc de test/Rayons_courbures.JPG" width=35% height=35%>
+   <img src="IV - Banc de test/Rayon_75_V2.JPG" width=35% height=35%>
+ <p><em>Figure : Gamme de rayons de courbure imprimés en 3D</em></p>
 </div>
 
 <div align="justify"> Pour tester les capteurs, nous avons imprimé huit supports en 3D avec différents rayons de courbure. Ces supports s'imbriquent sur le banc de test comme nous pouvons le voir sur la photo [INSÉRER n°figure]. Les numéros qui figurent sur les supports correspondent à l'angle entre le bord jaune et le bord rouge. 
