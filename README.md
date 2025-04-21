@@ -374,5 +374,8 @@ Voici un tableau récapitulatif de nos relevés de mesures.
 
 
 ## B) Comparaison avec un capteur commercial: qui sera le meilleur ?
-
+<div align="justify">   Les résultats ci-dessous ne permettent pas de clairement classifier un capteur graphite du capteur commercial. Ce sont deuxx types de capteurs différents, avec des domaines d'utilisations qui ne sont pas totalement identiques. Effectivement, le capteur commercial est précis, a une sensibilité élevée et est réutilisable un grand nombre de fois sans se détériorer. Or, c'est un capteur avec lequel une mesure en compression est impossible à réaliser car cela l'endommagerait. C'est sur ce point qu'un capteur en graphite va être meilleur qu'un capteur commercial. Il est possible de réaliser une mesure en compression tout en conservant une certaine précision et sans compromettre l'intégrité du capteur. Cepandant, un capteur graphite sera toujours plus délicat à utiliser qu'un capteur commercial. Il ne faut que le capteur entre en contact avec une quelconque surface au risque d'endommager la couche de graphite et il ne faut pas plier fortement le capteur au risque de casser les fibres du papier. Ce sont des contraintes importantes à prendre en compte si l'utilisation d'un tel capteur est envisagée. En revanche, il peut être imaginé d'encapsuler le capteur graphite pour le protéger et 'lutiliser plus facilement.
+</div>
+<div align="justify">   Pour conclure, le capteur graphite a une gamme plus large d'utilisation du capteur commercial mais reste très délicat et contraignant à manipuler. L'améliorer en imaginant un moyen de protéger le graphite permettrait de l'utiliser plus facilement.
+</div>
 
