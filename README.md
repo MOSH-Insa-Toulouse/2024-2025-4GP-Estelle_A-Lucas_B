@@ -25,10 +25,17 @@ Projet capteur 2024 - 2025 | Estelle AUBRY et Lucas BOURDARIE | 4ème année, 59
 
 <div align="justify"> De plus, le capteur graphite réalisé sera testé de manière à comparer ses performances avec un capteur de déformation commercial. Nous souhaitons dégager les forces et les limites du capteur graphite par rapport à un capteur commercial. Finalement, nous établirons une conclusion quant à la possible industrialisation de ce type de capteur.</div>
 
-[INSÉRER IMAGE PROJET FINI]
+<div style='display:flex' align="center">
+   <img src="IV - Banc de test/Test_bench.JPG" width=35% height=35%>
+   <img src="IV - Banc de test/Servo_motor.JPG" width=35% height=35%>
+ <p><em>Figure : Banc de test complet </em></p>
+</div>
 
-<div align="justify"> </div>
-
+<div style='display:flex' align="center">
+   <img src="IV - Banc de test/Graphite_sensor.JPG" width=35% height=35%>
+   <img src="IV - Banc de test/Flex_sensor.JPG" width=35% height=35%>
+ <p><em>Figure : Mise en place des deux types de capteurs disponibles </em></p>
+</div>
 
  ## Livrables
 À la fin de ce projet, plusieurs livrables sont attendus:
