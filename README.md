@@ -424,8 +424,7 @@ Voici un tableau récapitulatif de nos relevés de mesures.
 </table>
 </div>
 
- Ce sont des contraintes importantes à prendre en compte si l'utilisation d'un tel capteur est envisagée. En revanche, il peut être imaginé d'encapsuler le capteur graphite pour le protéger et 'lutiliser plus facilement.
 </div>
-<div align="justify"> Pour conclure, le capteur graphite a une gamme d'utilisation plus large que le capteur commercial. Sa sensibilité peut égaler celle du capteur commercial. Il reste cependant très délicat et contraignant à manipuler. Nous pensons qu'une piste d'amélioration possible pour ce capteur serait d'envisager un moyen de l'encapsuler pour protéger le graphite. Avec une telle solution, il serait possible d'industrialiser le capteur pour le rendre plus durable. Toutefois, la solution ne devra pas être trop coûteuse pour ne pas perdre l'intêret de ce capteur qui se veut low-tech avant tout.
+<div align="justify"> Pour conclure, le capteur graphite a une gamme d'utilisation plus large que le capteur commercial. Sa sensibilité peut égaler celle du capteur commercial. Il reste cependant très délicat et contraignant à manipuler. Nous pensons qu'une piste d'amélioration possible pour ce capteur serait d'envisager un moyen de l'encapsuler pour protéger le graphite. Avec une telle solution, il serait possible de l'industrialiser pour le rendre plus durable. Toutefois, la solution ne devra pas être trop coûteuse pour ne pas perdre l'intérêt de ce capteur qui se veut low-tech avant tout.
 </div>
 
