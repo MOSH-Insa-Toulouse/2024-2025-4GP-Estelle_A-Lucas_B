@@ -99,7 +99,7 @@ Cependant, l'équipe conclut que l'observation de ces phénomènes n'est pas pos
 ## A) Montage avec l'amplificateur transimpédance
 
 <div align="center">
-  <img src="II - Simulation/circuit_simulation.png"/>
+  <img src="II - Simulation/circuit_simulation_V2.png"/>
   <p><em>Figure 6 : Schéma de l'amplificateur transimpédance dans LTSpice </em></p>
 </div>
 <div align="justify">
