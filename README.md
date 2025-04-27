@@ -25,6 +25,8 @@ Projet capteur 2024 - 2025 | Estelle AUBRY et Lucas BOURDARIE | 4ème année, 59
 
 <div align="justify"> De plus, le capteur graphite réalisé sera testé de manière à comparer ses performances avec un capteur de déformation commercial. Nous souhaitons dégager les forces et les limites du capteur graphite par rapport à un capteur commercial. Finalement, nous établirons une conclusion quant à la possible industrialisation de ce type de capteur.</div>
 
+<br>
+
 <div style='display:flex' align="center">
    <img src="IV - Banc de test/Test_bench.JPG" width=35% height=35%>
    <img src="IV - Banc de test/Servo_moteur_V2.JPG" width=34.7% height=34.7%>
@@ -70,6 +72,8 @@ Pour réaliser **l'amplificateur transimpédance**, la liste de matériel est la
 
 <div align="justify">
 Oui et c'est ce qu'a montré l'équipe de chercheurs Lin, CW., Zhao, Z., Kim, J. et al. dans l'article <em>Pencil Drawn Strain Gauges and Chemiresistors on Paper</em> paru en 2014. En effet, les crayons à papier sont composés de graphite et d'argile dans des proportions différentes. Par exemple, le crayon HB est constitué à 50% de graphite et à 50% d'argile. Ces différences de compositions entraînent des propriétés de conduction qui diffèrent selon le type de crayon utilisé. Lorsque l'on dépose du crayon à papier sur une feuille, les nanoparticules de graphite déposées constituent un système dit <strong>granulaire</strong>. Il s'agit d'un système dont les grains forment un réseau très désordonné au sein duquel les électrons se déplacent d'un grain à un autre par <strong>effet tunnel</strong>. L'équipe de chercheurs a donc démontré que les crayons <strong>durs</strong> comme l'HB possédaient une résistance plus importante que les crayons <strong>légers</strong> comme le 9B. Ceci s'explique par le fait que les crayons durs comme l'HB contiennent plus d'argile qu'un crayon léger qui contient plus de graphite. L'argile joue le rôle d'un isolant, plus il y en a, plus la conduction des électrons au sein du matériau est difficile. À l'inverse, les nanoparticules de graphite permettent la conduction des électrons, c'est pour cela que le crayon 9B est moins résistif que le crayon HB. 
+</div>
+ <br>
 <div align="center">
   <img src="I-Photos/type_crayons.jpg"/>
   <p><em>Figure 3 : Les différents types de crayons: du 9B au 9H</em></p>
@@ -282,7 +286,7 @@ Le servo moteur effectuera 5 aller-retours jusqu'à la position 150 du servo à 
 
 ## A) L'écran de démarrage
 <div align="justify"> L'écran de démarrage comporte un seul bouton "Démarrer" sur lequel il suffit de cliquer pour lancer l'application.</div>
-
+<br>
 <div align="center">
   <img src="VI - Application Android/Acceuil_app.jpg"/ width=50% height=50%>
   <p><em>Figure 23 : Écran de démarrage de l'application </em></p>
@@ -291,6 +295,7 @@ Le servo moteur effectuera 5 aller-retours jusqu'à la position 150 du servo à 
 ## B) L'interface principale et ses fonctionalités
 
 <div align="justify"> Sur le deuxième écran, l'utilisateur doit tout d'abord connecter son téléphone au module Bluetooth pour recevoir les données. Lorsque la connexion est établie, le bouton "Bluetooth connexion" s'affiche en vert. Ensuite, un switch permet de définir quel capteur est utilisé. Si l'on utilise le capteur graphite, il faut renseigner la valeur du potentiomètre numérique dans la case rose pour afficher la bonne valeur de résistance dans la case bleu clair. Par défaut, la valeur de R2 vaut 875 ohms. Un graphique en dessous permet d'afficher en direct les bytes reçus par le module Bluetooth. Les bytes reçus sont également affichés dans la case jaune en dessous du graphique. </div>
+<br>
 <div align="center">
   <img src="VI - Application Android/Mesures_app.jpg"/ width=50% height=50%>
   <p><em>Figure 24 : Écran de démarrage de l'application </em></p>
@@ -376,6 +381,7 @@ Voici un tableau récapitulatif de nos relevés de mesures.
 ## B) Comparaison avec un capteur commercial: qui sera le meilleur ?
 <div align="justify">   Grâce aux résultats ci-dessus, nous pouvons comparer les performances du capteur graphite par rapport au capteur commercial. Ce sont deux capteurs différents qui ont chacun leur propre domaine d'utilisation. Voici les points positifs et négatifs du capteur commercial.
 </div>
+<br>
  
 <div align="center">
 <table>
