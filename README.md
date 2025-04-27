@@ -375,6 +375,7 @@ Voici un tableau récapitulatif de nos relevés de mesures.
 
 ## B) Comparaison avec un capteur commercial: qui sera le meilleur ?
 <div align="justify">   Grâce aux résultats ci-dessus, nous pouvons comparer les performances du capteur graphite par rapport au capteur commercial. Ce sont deux capteurs différents qui ont chacun leur propre domaine d'utilisation. Voici les points positifs et négatifs du capteur commercial.
+</div>
  
 <div align="center">
 <table>
@@ -395,6 +396,7 @@ Voici un tableau récapitulatif de nos relevés de mesures.
     </tr>
    <tr>
       <td>Réutilisable un grand nombre de fois sans détérioration</td>
+      <td></td>
     </tr>
   </tbody>
 </table>
@@ -419,12 +421,10 @@ Voici un tableau récapitulatif de nos relevés de mesures.
       <td>Permet de réaliser des mesures en compression</td>
       <td>Si le capteur est courbé trop de fois les fibres du papiers se cassent ce qui nuit à la mesure</td>
     </tr>
-   <tr>
   </tbody>
 </table>
 </div>
 
-</div>
 <div align="justify"> Pour conclure, le capteur graphite a une gamme d'utilisation plus large que le capteur commercial. Sa sensibilité peut égaler celle du capteur commercial. Il reste cependant très délicat et contraignant à manipuler. Nous pensons qu'une piste d'amélioration possible pour ce capteur serait d'envisager un moyen de l'encapsuler pour protéger le graphite. Avec une telle solution, il serait possible de l'industrialiser pour le rendre plus durable. Toutefois, la solution ne devra pas être trop coûteuse pour ne pas perdre l'intérêt de ce capteur qui se veut low-tech avant tout.
 </div>
 
