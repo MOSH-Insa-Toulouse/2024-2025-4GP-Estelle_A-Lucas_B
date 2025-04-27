@@ -380,8 +380,8 @@ Voici un tableau récapitulatif de nos relevés de mesures.
 <table>
   <thead>
     <tr>
-      <th>✅ Points positifs</th>
-      <th>❌ Points négatifs</th>
+      <th>Points positifs</th>
+      <th>Points négatifs</th>
     </tr>
   </thead>
   <tbody>
@@ -406,8 +406,8 @@ Voici un tableau récapitulatif de nos relevés de mesures.
 <table>
   <thead>
     <tr>
-      <th>✅ Points positifs</th>
-      <th>❌ Points négatifs</th>
+      <th>Points positifs</th>
+      <th>Points négatifs</th>
     </tr>
   </thead>
   <tbody>
