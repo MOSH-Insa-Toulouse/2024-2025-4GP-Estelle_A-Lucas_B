@@ -89,7 +89,7 @@ De plus, les chercheurs ont aussi prouvé que les crayons pouvaient se comporter
 </div>
 
 
-Cependant, l'équipe conclut que l'observation de ces phénomènes n'est pas possible pour des crayons composés de plus d'argile que le crayon HB. Selon eux, le réseau de nanoparticules du crayon HB se situe juste au dessus du <strong>seuil de percolation</strong>. Le seuil de percolation est le seuil à partir duquel le matériau devient conducteur car les électrons peuvent traverser. Néanmoins, nous allons montrer que, grâce à l'utilisation d'un <strong>amplificateur transimpédance</strong>, il est possible de mesurer des résistances pour des crayons plus légers que le HB. Par conséquent, la structure de ces crayons permet le passage des électrons et ne se situe pas en dessous du seuil de percolation.   
+Cependant, l'équipe conclut que l'observation de ces phénomènes n'est pas possible pour des crayons composés de plus d'argile que le crayon HB. Selon eux, le réseau de nanoparticules du crayon HB se situe juste au dessus du <strong>seuil de percolation</strong>. Le seuil de percolation est le seuil à partir duquel le matériau devient conducteur car les électrons peuvent traverser. Néanmoins, nous allons montrer que, grâce à l'utilisation d'un <strong>amplificateur transimpédance</strong>, il est possible de mesurer des résistances pour des crayons plus durs que le HB. Par conséquent, la structure de ces crayons permet le passage des électrons et ne se situe pas en dessous du seuil de percolation.   
 </div>
 
 # II - Simulation sous LTSpice et formules utiles
@@ -276,7 +276,7 @@ Le servo moteur effectuera 5 aller-retours jusqu'à la position 150 du servo à 
 
 # VI - L'application Android avec Mit App Inventor
 
-<div align="justify"> Cette application permet de recevoir les donnnées envoyées par le module Bluetooth du PCB et de les afficher sous forme de graphique. Pour ce faire, les données lues par l'entrée analogique du capteur suivent le processus suivant:
+<div align="justify"> Cette application permet de recevoir les donnnées envoyées par le module Bluetooth du PCB et de les afficher sous forme de graphique.
 
 [insérer image explicative]
 
