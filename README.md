@@ -258,7 +258,7 @@ Ce menu souhaite la bienvenue à l'utilisateur. Il ne possède pas de fonctionna
    <img src="V - Code arduino/Live_in.jpg" width=30% height=30%>
  <p><em>Figure 20 : menu de démarrage de la mesure </em></p>
 </div>
-Le menu démarrage permet de lancer l'acquisition de mesure. Il prend en compte tous les paramètres précédemment définis par l'utilisateur. Par exemple pour des paramètres tels que:
+Le menu "Démarrage" permet de lancer l'acquisition de mesure. Il prend en compte tous les paramètres précédemment définis par l'utilisateur. Par exemple pour des paramètres tels que:
 <ul>
 <li><strong>Vitesse</strong>: 52%</li>
 <li><strong>Borne</strong>: 150</li>
