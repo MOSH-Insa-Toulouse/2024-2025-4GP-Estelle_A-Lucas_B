@@ -204,7 +204,7 @@ De la même manière, pour le capteur commercial, nous faisons un pont diviseur 
    <img src="V - Code arduino/Bienvenue.jpg" width=35% height=35%>
  <p><em>Figure 13 : menu de bienvenue </em></p>
 </div>
-Ce menu souhaite la bienvenue à l'utilisateur. Il ne possède pas le fonctionalité particulière.
+Ce menu souhaite la bienvenue à l'utilisateur. Il ne possède pas de fonctionnalité particulière.
 
 ### 2 - Le menu "CONFIGURATION"
 <div style='display:flex' align="center">
@@ -228,7 +228,7 @@ Ce menu souhaite la bienvenue à l'utilisateur. Il ne possède pas le fonctional
    <img src="V - Code arduino/Vitesse_in.jpg" width=35% height=35%>
  <p><em>Figure 16 : menu de réglage de la vitesse </em></p>
 </div>
-<div align="justify"> Dans le menu "Vitesse", l'utilisateur peut régler la vitesse à laquelle il souhaite effectuer les mesures, c'est-à-dire, la vitesse à laquelle la glissère reliée au servo moteur va se déplacer. L'écran affiche un pourcentage qui correspond à la vitesse du servo moteur. 0% correspond à la <strong>vitesse minimale</strong> et 100% la <strong>vitesse maximale</strong>. Pour augmenter la vitesse, il est nécessaire de tourner l'encodeur rotatif dans le sens <strong>anti-horaire</strong> car il s'agit en réalité de <strong>diminuer</strong> le délai entre chaque incrément du servo moteur. La vitesse maximale correspond à un délai de <strong>5ms</strong> tandis que la vitesse minimale correspond à un délai de <strong>40ms</strong>. De plus, lorsque la vitesse change (= l'encoder change de position), le servo moteur effectue un aller-retour au cours duquel il est possible faire varier la vitesse du servo à l'aide de l'encoder jusqu'à obtenir la vitesse désirée. L'affichage en % de la vitesse s'effectue <strong> à la fin </strong>  de l'aller-retour. Il n'y a donc pas d'affichage en direct de la vitesse mais seulement après que le servo moteur ait fait un aller-retour. D'après la figure 17 ci-dessous, comme l'encoder est utilisé pour faire varier le délai, la variable encoder_pos peut prendre des valeurs comprises entre 5 et 40 uniquement. </div>
+<div align="justify"> Dans le menu "Vitesse", l'utilisateur peut régler la vitesse à laquelle il souhaite effectuer les mesures, c'est-à-dire, la vitesse à laquelle la glissière reliée au servo moteur va se déplacer. L'écran affiche un pourcentage qui correspond à la vitesse du servo moteur. 0% correspond à la <strong>vitesse minimale</strong> et 100% la <strong>vitesse maximale</strong>. Pour augmenter la vitesse, il est nécessaire de tourner l'encodeur rotatif dans le sens <strong>anti-horaire</strong> car il s'agit en réalité de <strong>diminuer</strong> le délai entre chaque incrément du servo moteur. La vitesse maximale correspond à un délai de <strong>5ms</strong> tandis que la vitesse minimale correspond à un délai de <strong>40ms</strong>. De plus, lorsque la vitesse change (= l'encoder change de position), le servo moteur effectue un aller-retour au cours duquel il est possible faire varier la vitesse du servo à l'aide de l'encoder jusqu'à obtenir la vitesse désirée. L'affichage en % de la vitesse s'effectue <strong> à la fin </strong>  de l'aller-retour. Il n'y a donc pas d'affichage en direct de la vitesse mais seulement après que le servo moteur ait fait un aller-retour. D'après la figure 17 ci-dessous, comme l'encoder est utilisé pour faire varier le délai, la variable encoder_pos peut prendre des valeurs comprises entre 5 et 40 uniquement. </div>
 <div align="center">
   <img src="V - Code arduino/Vitesse_V2.png"/ width=80% height=80%>
   <p><em>Figure 17 : Algorigramme qui présente le déroulé de la fonction "Vitesse"</em></p>
@@ -240,7 +240,7 @@ Ce menu souhaite la bienvenue à l'utilisateur. Il ne possède pas le fonctional
    <img src="V - Code arduino/Borne_in.jpg" width=35% height=35%>
  <p><em>Figure 18 : menu de réglage de la borne </em></p>
 </div>
-<div align="justify"> À partir de cette étape, il faut placer le capteur sur le banc de test. Le menu "Borne" permet à l'utilisateur de régler la position maximale du servo moteur et par conséquent, celle de l'encoche qui maintient le capteur contre le support. De cette manière, l'utilisateur peut s'assurer que le capteur épouse correctement la forme du rayon de courbure. Pour augmenter ou diminuer la position maximale, il faut tourner l'encoder rotatif dans le sens hoaire ou anti-horaire. </div>
+<div align="justify"> À partir de cette étape, il faut placer le capteur sur le banc de test. Le menu "Borne" permet à l'utilisateur de régler la position maximale du servo moteur et par conséquent, celle de l'encoche qui maintient le capteur contre le support. De cette manière, l'utilisateur peut s'assurer que le capteur épouse correctement la forme du rayon de courbure. Pour augmenter ou diminuer la position maximale, il faut tourner l'encoder rotatif dans le sens horaire ou anti-horaire. </div>
  
 ### 6 - Le menu "MODE de MESURE"
 <div style='display:flex' align="center">
@@ -258,7 +258,7 @@ Ce menu souhaite la bienvenue à l'utilisateur. Il ne possède pas le fonctional
    <img src="V - Code arduino/Live_in.jpg" width=30% height=30%>
  <p><em>Figure 20 : menu de démarrage de la mesure </em></p>
 </div>
-Le menu démarrage permet de lancer l'acquisition de mesure. Il prend en compte tous les paramètres précedemment définis par l'utilisateur. Par exemple pour des paramètres tels que:
+Le menu démarrage permet de lancer l'acquisition de mesure. Il prend en compte tous les paramètres précédemment définis par l'utilisateur. Par exemple pour des paramètres tels que:
 <ul>
 <li><strong>Vitesse</strong>: 52%</li>
 <li><strong>Borne</strong>: 150</li>
