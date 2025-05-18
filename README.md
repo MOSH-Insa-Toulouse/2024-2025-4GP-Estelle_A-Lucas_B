@@ -111,7 +111,7 @@ De plus, il va falloir filtrer le bruit. Pour ce faire, nous mettons en place 3 
  <ul>
   <li>un pour filtrer le bruit du capteur en jaune.</li>
   <li>un pour filtrer le bruit à 50Hz en vert.</li>
-  <li>un pour filtrer les variations plus rapides que 7kHz en rouge. D'après le critère de Shannon, fech > 2*fsignal. Or, pour une carte Arduino, la fréquence d'échantillonage vaut 15 kHz donc fsignal < 7kHz.  </li>
+  <li>un pour filtrer les variations plus rapides que 7kHz en rouge. D'après le critère de Shannon, fech > 2*fsignal. Or, pour une carte Arduino, la fréquence d'échantillonnage vaut 15 kHz donc fsignal < 7kHz.  </li>
 </ul>
 </div>
 
@@ -142,7 +142,7 @@ De la même manière, pour le capteur commercial, nous faisons un pont diviseur 
 
 **4)** Établir les **points de connexion** entre la carte Arduino et tous les composants
 
-**5)** **Positioner** les composants sur la PCB
+**5)** **Positionner** les composants sur la PCB
 
 **6)** Importer les **modèles 3D** pour les composants non-présents par défaut dans les librairies (OLED, encoder rotatif, module Bluetooth, capteur commercial)
 
@@ -198,7 +198,7 @@ De la même manière, pour le capteur commercial, nous faisons un pont diviseur 
 
 <div align="justify"> Le code développé permet à l'utilisateur de gérer facilement et intuitivement le banc de test pour effectuer les mesures. L'affichage se fait sur l'écran OLED sur lequel apparaissent <a href="https://github.com/MOSH-Insa-Toulouse/2024-2025-4GP-Haistelle-Lucbourd/tree/main?tab=readme-ov-file#b-les-diff%C3%A9rentes-fonctionalit%C3%A9s">les différentes fonctionnalités</a>. L'utilisateur peut parcourir les différents menus en tournant l'encoder rotatif dans le sens horaire ou anti-horaire. Pour "rentrer" dans un menu, il suffit d'appuyer sur l'encoder et l'interface se met à jour. Chaque menu possède sa propre fonctionnalité que l'utilisateur peut librement régler. En principe, l'ordre des menus correspond à l'ordre dans lequel l'utilisateur doit effectuer les réglages avant de lancer la mesure via le menu "Démarrage" à la fin. Il est préférable de ne pas placer le capteur sur le banc de test avant le menu "Borne" pour ne pas l'abîmer lors des précédents réglages.</div>
 
-## B) Les différentes fonctionalités
+## B) Les différentes fonctionnalités
 ### 1 - Le menu "BIENVENUE"
 <div align="center">
    <img src="V - Code arduino/Bienvenue.jpg" width=35% height=35%>
@@ -263,7 +263,7 @@ Le menu démarrage permet de lancer l'acquisition de mesure. Il prend en compte 
 <li><strong>Vitesse</strong>: 52%</li>
 <li><strong>Borne</strong>: 150</li>
 <li><strong>Mode de mesure</strong>: 5</li>
-Le servo moteur effectuera 5 aller-retours jusqu'à la position 150 du servo à une vitesse de 52% de la vitessse maximale.
+Le servo moteur effectuera 5 aller-retours jusqu'à la position 150 du servo à une vitesse de 52% de la vitesse maximale.
 </ul>
 <div align="center">
   <img src="V - Code arduino/Lancer_mesure(2).png"/ width=50% height=50%>
@@ -280,7 +280,7 @@ Le servo moteur effectuera 5 aller-retours jusqu'à la position 150 du servo à 
 
 # VI - L'application Android avec Mit App Inventor
 
-<div align="justify"> Cette application permet de recevoir les donnnées envoyées par le module Bluetooth du PCB et de les afficher sous forme de graphique.
+<div align="justify"> Cette application permet de recevoir les données envoyées par le module Bluetooth du PCB et de les afficher sous forme de graphique.
 
 [insérer image explicative]
 
@@ -292,7 +292,7 @@ Le servo moteur effectuera 5 aller-retours jusqu'à la position 150 du servo à 
   <p><em>Figure 23 : Écran de démarrage de l'application </em></p>
 </div>
 
-## B) L'interface principale et ses fonctionalités
+## B) L'interface principale et ses fonctionnalités
 
 <div align="justify"> Sur le deuxième écran, l'utilisateur doit tout d'abord connecter son téléphone au module Bluetooth pour recevoir les données. Lorsque la connexion est établie, le bouton "Bluetooth connexion" s'affiche en vert. Ensuite, un switch permet de définir quel capteur est utilisé. Si l'on utilise le capteur graphite, il faut renseigner la valeur du potentiomètre numérique dans la case rose pour afficher la bonne valeur de résistance dans la case bleu clair. Par défaut, la valeur de R2 vaut 875 ohms. Un graphique en dessous permet d'afficher en direct les bytes reçus par le module Bluetooth. Les bytes reçus sont également affichés dans la case jaune en dessous du graphique. </div>
 <br>
@@ -314,7 +314,7 @@ Pour calculer la déformation, nous effectuons le calcul ci-dessous pour tous no
   <img src="VII - Résultats/Eq_epsilon.png"/>
   <p><em>Equation 4: Formule pour calculer la déformation</em></p>
 </div>
-Le coefficient de proportionalité qui lie la variation relative de résistance et la déformation correspond à la <strong>sensibilité</strong> du capteur. 
+Le coefficient de proportionnalité qui lie la variation relative de résistance et la déformation correspond à la <strong>sensibilité</strong> du capteur. 
 </div>
 
 <div align="justify">  Pour réaliser tous nos tests nous avons choisi une vitesse de 52% pour le servo moteur. Les crayons testés sont le 6B, 5B, 4B, 3B, B, HB, F et H pour des mesures en tension. Les tests ont été effectués sur chaque rayon de courbure disponible. Pour les mesures en compression, les tests ont été réalisés sur les crayons 6B, 3B et HB pour des rayons de courbure allant jusqu'à 24 mm. Pour <strong> chaque point </strong>, nous avons réalisé 5 mesures de résistance pour un type de crayon et un rayon de courbure donné et pris la moyenne de ces 5 mesures comme résultat final. Au total, pour les mesures en tension cela nous fait 8 (crayons) x 8 (supports) x 5 (mesures pour 1 type de crayon et un rayon de courbure donné) = <strong>320 mesures</strong>. Pour les mesures en compression, nous avons 3 (crayons) x 6 (supports) x 5 (mesures) = <strong>90 mesures</strong>. Nous n'avons pas pu réaliser les mesures en compression pour tous les rayons de courbure disponibles car le capteur se détériorait au fur et à mesure des tests.  Ainsi, pour ce projet nous avons effectué plus de <strong>400</strong> mesures pour caractériser nos capteurs. 
