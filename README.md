@@ -298,7 +298,7 @@ Le servo moteur effectuera 5 aller-retours jusqu'à la position 150 du servo à 
 <br>
 <div align="center">
   <img src="VI - Application Android/Mesures_app.jpg"/ width=50% height=50%>
-  <p><em>Figure 24 : Écran de démarrage de l'application </em></p>
+  <p><em>Figure 24 : Écran pour le relevé de mesures en direct </em></p>
 </div>
 
 # VII - Résultats
