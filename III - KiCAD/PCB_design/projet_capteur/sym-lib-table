@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Lib_graphite")(type "KiCad")(uri "//netapp2/bourdari/Documents/4A/Capteur/KiCAD/Lib_graphite.kicad_sym")(options "")(descr ""))
+)
