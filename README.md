@@ -44,7 +44,7 @@ Projet capteur 2024 - 2025 | Estelle AUBRY et Lucas BOURDARIE | 4ème année, 59
 - Un **PCB** sur lequel seront connectés tous les éléments cités dans la partie [Matériel utilisé](https://github.com/MOSH-Insa-Toulouse/2024-2025-4GP-Haistelle-Lucbourd/blob/main/README.md#mat%C3%A9riel-utilis%C3%A9)
 - Un **banc de test** pour étudier la déformation du capteur graphite et du capteur commercial
 - Un **code Arduino** qui permette de contrôler le banc de test et d'afficher les mesures de résistances
-- Une **datasheet** qui énonce toutes les caractéristiques du capteur graphite
+- Une <a href="https://github.com/MOSH-Insa-Toulouse/2024-2025-4GP-Haistelle-Lucbourd/blob/main/README.md#i---un-capteur-%C3%A0-base-de-graphite-cest-possible-"><strong>datasheet</strong></a> qui énonce toutes les caractéristiques du capteur graphite
 - Une **application Android** (.apk) pour visualiser les relevés de mesures en direct
 
 ## Matériel utilisé 
