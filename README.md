@@ -55,6 +55,7 @@ Pour le **montage**, voici tout le matériel requis:
 - Un potentiomètre numérique MCP41050
 - Un encodeur rotatif
 - Un capteur de déformation commercial (FlexSensor) pour effectuer une comparaison
+- Un <a href="https://github.com/MOSH-Insa-Toulouse/2024-2025-4GP-Haistelle-Lucbourd/blob/main/Jauge_Contrainte_A_Imprimer.pdf"><strong>capteur de déformation en papier</strong></a>
 - Des crayons à papiers différents pour les tests
 - Un servo moteur
 - Des header de différentes tailles pour fixer les composants sur la PCB
