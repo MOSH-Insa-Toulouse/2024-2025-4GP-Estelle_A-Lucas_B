@@ -80,8 +80,9 @@ Oui et c'est ce qu'a montré l'équipe de chercheurs Lin, CW., Zhao, Z., Kim, J.
   <p><em>Figure 3 : Les différents types de crayons: du 9B au 9H</em></p>
  <p><em>d'après le site Passage Clouté à l'adresse<a href="https://passagecloute.com/blog/post/8_comment-choisir-le-bon-crayon-graphite-du-9h-au-9b.html?page_type=post"> suivante</a> </em></p>
 </div>
-
+<div align="justify">
 De plus, les chercheurs ont aussi prouvé que les crayons pouvaient se comporter comme des <strong>jauges de contraintes</strong>. En dessinant au crayon une forme de U avec deux rectangles au bout pour les électrodes de contact, les chercheurs ont remarqué qu'une déformation en compression et en tension avaient des effets différents sur la <strong>résistance</strong> du capteur. La compression du capteur compresse les particules de graphite et induit une diminution de la résistance. Au contraire, la tension du capteur éloigne les particules de graphite ce qui augmente résistance. 
+</div>
 <div align="center">
   <img src="I-Photos/schema_tension_compression.png"/>
   <p><em>Figure 4 : Structure granulaire en compression et en tension</em></p>
@@ -93,7 +94,7 @@ De plus, les chercheurs ont aussi prouvé que les crayons pouvaient se comporter
  <p><em>d'après Lin, CW., Zhao, Z., Kim, J. et al., 2014 </em></p>
 </div>
 
-
+<div align="justify">
 Cependant, l'équipe conclut que l'observation de ces phénomènes n'est pas possible pour des crayons composés de plus d'argile que le crayon HB. Selon eux, le réseau de nanoparticules du crayon HB se situe juste au dessus du <strong>seuil de percolation</strong>. Le seuil de percolation est le seuil à partir duquel le matériau devient conducteur car les électrons peuvent traverser. Néanmoins, nous allons montrer que, grâce à l'utilisation d'un <strong>amplificateur transimpédance</strong>, il est possible de mesurer des résistances pour des crayons plus durs que le HB. Par conséquent, la structure de ces crayons permet le passage des électrons et ne se situe pas en dessous du seuil de percolation.   
 </div>
 
